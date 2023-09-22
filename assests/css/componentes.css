@@ -1,0 +1,174 @@
+/*--------------*\
+    Cabeçalho
+\*--------------*/
+
+.cabecalho__navegador{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1400px;
+    margin-top: 2.5em;
+   
+}
+.cabecalho__navegador .cabecalho__logo{
+    font-size: 1em; 
+    color: #fff;
+    font-family:Cambria, Georgia, serif ;
+    text-shadow: 1px 1px#40e0d0 ;
+    }
+    ul {
+        text-transform:uppercase;
+    }
+ .cabecalho__navegador ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0 35px;
+       font-size: 2em;
+    }
+ .cabecalho__navegador li{
+         list-style: none;
+    }
+.cabecalho__navegador img:hover {
+        border: 1px solid #40e0d0 ;
+        border-radius: 20%;
+        transition: 2s;
+    }
+ .cabecalho__navegador img {
+        width: 35px;
+        height: 35px;
+    }
+  
+/*--------------*\
+      Título
+\*--------------*/
+.titulo {
+   font-size: 8rem;
+   text-shadow: 1px 2px#40e0d0 ;
+   font-family:New Century Schoolbook, TeX Gyre Schola, serif ;
+   /*width: 1000px;
+   display:flex;
+   align-items: center;*/
+}
+.layout-titulo p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Apple Chancery, cursive ;
+    font-size: 1.3em;
+}
+
+.titulo_desenvolvimento {
+    font-size: 4rem;
+    color: #40e0d0;
+    margin-top: 10.5%;
+    
+}
+
+/*--------------*\
+Quadro Professores
+\*--------------*/
+
+.quadro__professores{
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #000;
+    border: 2px solid #40e0d0;
+    border-radius: 5%;
+   /* box-shadow: 0 2px 0 2px #40e0d0;*/
+    cursor:pointer; 
+    transition: all 0.3s;
+}
+.quadro__professores:hover > :not(:hover){
+    opacity: 0.2;
+}
+
+.quadro__professores img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin:5% 15% 0 30%;
+    border: 3px solid#40e0d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quadro__professores h2 a{
+    color: #40e0d0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.quadro__professores p {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.4em;
+padding: 5% 5% ;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/*--------------*\
+   Coluna Card
+\*--------------*/
+
+.coluna__card {
+    background-color: #000;
+    width:100%;
+    height: 190px;
+    border-radius: 12px;
+    box-shadow: 0 4px  #40e0d0;
+    
+}
+.coluna__card img {
+ width: 160px;
+ height: 100px;
+ border-radius: 12px 12px 12px 12px ;
+/* border:1px solid #40e0d0;*/
+ box-shadow: 0 2px  #40e0d0;
+}
+.coluna__card h2 {
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+  
+    
+}
+.coluna__card button {
+    background-color: #000 ;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 60%;
+    columns: #fff ;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #40e0d0;
+}
+ .botao--destaque:hover, .botao--destaque:focus {
+    scale: 1.2;
+}
+.coluna__card button a {
+    text-decoration:none;
+    color:  #fff;
+}
+.coluna__card div{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   /* gap: 4px;*/
+}
+/*--------------*\
+      Rodapé
+\*--------------*/
+
+.layout-rodape p{
+    color: #40e0d0;
+}
+
