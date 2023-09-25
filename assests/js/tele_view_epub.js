@@ -6,3 +6,9 @@ class TelaViewEpub  {
         rendition.display();
     }
 }
+
+let btn = document.querySelector('#btn');
+
+btn.onclick = function() {
+    barra.classList.toggle('active');
+}
