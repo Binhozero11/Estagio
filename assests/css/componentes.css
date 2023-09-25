@@ -2,32 +2,12 @@
     Cabeçalho
 \*--------------*/
 
-.cabecalho__navegador{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1400px;
-    margin-top: 2.5em;
-   
-}
-.cabecalho__navegador .cabecalho__logo{
-    font-size: 1.7em; 
-    color: #fff;
-    font-family:Cambria, Georgia, serif ;
-    text-shadow: 1px 1px#40e0d0 ;
-    }
-
-.cabecalho__navegador img:hover {
-    border: 1px solid #40e0d0 ;
-    border-radius: 20%;
-    transition: 2s;
-}
-.cabecalho__navegador img {
-    width: 35px;
-    height: 35px;
+header.layout-cabecalho h2{
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#btn {     
+#menu {     
     top: 6px;  
     left: 50%;   
     transform: translateX(-50%); 
@@ -39,33 +19,37 @@
     line-height: 50px;
 }
     
-#btn {
+#menu {
     left: 90%;
 }
 /*--------------*\
       Título
 \*--------------*/
 .titulo {
-   font-size: 8rem;
+   font-size: 4.5em;
    text-shadow: 1px 2px#40e0d0 ;
    font-family:New Century Schoolbook, TeX Gyre Schola, serif ;
    /*width: 1000px;
    display:flex;
    align-items: center;*/
 }
-.layout-titulo p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family:Apple Chancery, cursive ;
-    font-size: 1.3em;
+
+/*--------------*\
+      Sessão 1
+\*--------------*/
+
+.layout-desenvolvimento--conteudos{
+    width: 600px;
 }
 
 .titulo_desenvolvimento {
     font-size: 4rem;
     color: #40e0d0;
     margin-top: 10.5%;
-    
+}
+
+.paragrafo_desenvolvimento{
+    font-size: 1.2em;
 }
 
 /*--------------*\

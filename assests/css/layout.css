@@ -3,20 +3,13 @@
 \*--------------*/
 
 .layout-cabecalho {
-    width: 100%;
-    height: 80px;
-    border-bottom:  1px solid #40e0d0;
-    background-color: black;
-}
-
-.layout-cabecalho--fixo {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #40e0d0;
   background-color: black;
-  position: fixed;
-
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /*--------------*\
@@ -24,11 +17,12 @@
 \*--------------*/
 
 .layout-titulo {
-    height: 550px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 /*--------------------*\
  Layout Desenvolvimento
 \*--------------------*/
@@ -37,15 +31,18 @@
   height: 350px;
   background-color: #000;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 /*--------------*\
 Layout Professores
 \*--------------*/
 
-.layout-professores{
-    height: 350px;
-    background-color:black;
+.layout-professores {
+  height: 350px;
+  background-color: black;
 }
 
 
@@ -54,16 +51,16 @@ Layout Professores
   Layout Coluna
 \*--------------*/
 
-.layout-coluna{
-    display: flex;
-    /*direction: row;
+.layout-coluna {
+  display: flex;
+  /*direction: row;
     flex-wrap: wrap;*/
-    justify-content: center;
-    align-items: center;
-    margin-top: 90px;
-    gap: 50px;
-    margin-bottom: 20px; 
-   /* overflow-x: scroll;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  gap: 50px;
+  margin-bottom: 20px;
+  /* overflow-x: scroll;
     scroll-snap-type: x mandatory;
     border:1px solid #40e0d0;*/
 }
@@ -71,7 +68,7 @@ Layout Professores
 /*--------------*\
   Layout Rodapé
 \*--------------*/
-.layout-rodape{
+.layout-rodape {
   width: 100%;
   height: 50px;
   background: black;
@@ -90,6 +87,3 @@ Layout Professores
 /*--------------*\
   Layout-Titulo
 \*--------------*/
-
-
-

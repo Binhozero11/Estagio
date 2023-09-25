@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
+
+html{
+    font-size: 62.5%;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background:#ffffff url(../images/Fundo_título2.jpg) no-repeat right fixed;
     background-size: cover;
     color: #fff;
-    font-size: 10px;
+    font-size: 1.4rem;
 }
