@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bacia do Paramirim | estudos escolares para aprendizado</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assests/css/bootstrap.minAntigo.css">
+    <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assests/css/base.css">
+    <link rel="stylesheet" href="assests/css/layout.css">
+    <link rel="stylesheet" href="assests/css/componentes.css">
 </head>
 <body>
     <header class="titulo-municipio">
@@ -16,131 +20,160 @@
             <div class="paragrafo-de-resumo">
                 <p>Macaúbas é um município brasileiro no interior do estado da Bahia, região nordeste do país. Situa-se na microregião de Boquira e mesoregião do centro-sul baiano localizando-se a uma distância de 642 quilômetros a oeste da capital estadual, Salvador. Foi colonizado em meados do século XVIII, numa região que habitavam vários povos indígenas. Durante anos, Macaúbas parte do território de Paratinga até que, em 1832, foi emancipada á vila. Localizado na transição entre o cerrado, caatinga e chapada, com clima semiárido, Macaúbas é rodeada por cerras, morros e fontes.</p>
             </div>
-            <table class="tabela">
+            
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-geografia-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-geografia" type="button" role="tab" aria-controls="nav-geografia"
+                        aria-selected="true">Geografia</button>
+                    <button class="nav-link" id="nav-economia-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-economia" type="button" role="tab" aria-controls="nav-economia"
+                        aria-selected="false">Economia</button>
+                    <button class="nav-link" id="nav-poemas-tab" data-bs-toggle="tab" data-bs-target="#nav-poemas"
+                        type="button" role="tab" aria-controls="nav-poemas" aria-selected="false">Poemas</button>
+                    <button class="nav-link" id="nav-biologia-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-biologia" type="button" role="tab" aria-controls="nav-biologia"
+                        aria-selected="false">Biologia</button>
+                </div>
+            </nav>
 
-                <colgroup> 
-                    <!--Utiliza esses col para estilizar as colunas, o 1 estiliza os temas das pesquisas e o outro os dados-->
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-geografia" role="tabpanel"
+                    aria-labelledby="nav-geografia-tab">
+                    <table class="tabela">
 
-                    <col class="col-temas">
-                    <col class="col-dados">
-                </colgroup>
-
-                <!--Opcional-->
-                <caption>Dados das pesquisas de Macaúbas</caption>
-
-                <thead class="tabela__cabecalho">
-                    <tr>
-                        <th colspan="1" scope="col">Temas das persquisas:</th>
-                        <th colspan="1" scope="col">Dados:</th>
-                    </tr>
-                </thead>
-                
-                <tbody class="tabela__conteudo">
-                    <tr>
-                        <th colspan="1" scope="row">Municípios Limítrofes</th>
-                        <td>
-                            <ul>
-                                <li>Boquira, Paratinga, Ibipitanga ao norte.</li>
-                                <li>Botuporã, Tanque novo e igaporã ao Sul.</li>
-                                <li>Rio do Pires ao Leste.</li>
-                                <li>Riacho de Santana ao Oeste.</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Área</th>
-                        <td>2459,102 km² de área(2022).</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Altitude</th>
-                        <td>Situado a 690 metros de altitude.</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Coordenadas geográficas</th>
-                        <td>Latitude 13° 01' 10" Sul | Longitude  42° 41' 55" Oeste.</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Clima</th>
-                        <td>O clima macaubense é tropical com estação seca.</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Temperatura Média</th>
-                        <td>24,2°C</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Vegetação</th>
-                        <td>A cobertura vegetal de Macaúbas é formada pela Caatinga, Cerrado e um pouco da Mata Atlântica</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Hidrografia</th>
-                        <td>O município faz parte da região hidrográfica do São Francisco. O abastecimento de água é feito pelo serviço autônomo de Água e Esgoto (SAAE), da prefeitura da cidade, atuante desde 1977. A capitania fluvial do São Francisco abrange o território, administrado pela agência Fluvial de Bom Jesus da Lapa</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">População Absoluta</th>
-                        <td>41,859 habitantes(2022).</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">População Relativa</th>
-                        <td>17,02 hab/km²</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Principais Atividades Econômicas</th>
-                        <td>A economia de Macaúbas se sustenta basicamente da agropecuária, sendo que sua agricultura é composta em sua grande maioria por lavouras de pequeno porte ou de subsistência. A produção é baseada principalmente no feijão catador vendido para o norte e nordeste do país</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Principais Manifestações Culturais</th>
-                        <td>
-                            <ul>
-                                <li>Capoeira</li>
-                                <li>festa da Padroeira</li>
-                                <li>Fimac</li>
-                                <li>artesanato</li>
-                                <li>agricultura familiar</li>
-                                <li>festas juninas</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Equipamentos Culturais</th>
-                        <td>
-                            <ul>
-                                <li>Museu: O museu regional de Macaúbas mantido pela fundação cultural professor José Batista da Motta, foi inaugurada em 11 de dezembro de 1988. Funciona na praça imaculada Conceição, n° 29(artigo 248).</li>
-                                <li>Biblioteca: Foi instaladavem 16-08-1972, sendo ampliada sua atuação a partir da inauguração do museu em 11-12-1988, sendo patrono a prof. José Batistada Motta, fundador e diretor da fundação e museu.</li>
-                                <li>Centro Cultural: centro cultural de Macaúbas, prof. José Benedito do Amaral, inaugurado em 27-11-2010 fica localizado na estrada de acesso ao povoada de Olária.</li>
-                                <li>Centro de artesanato: Foi criado em 1994 pelo professor Ático Vilas Boas em parceria com a prefeitura de Macaúbas, eles iniciou com cerca de 120 alunos no ano de 1998.</li>
-                                <li>Ginásio: Ginásio poliesportivo Euclides Defensor Menezes (Kidão), construído em 2008 e que abriga cerca de 1000 pessoas. E ocorre campeonatos de futsal durante o ano, masculino, estudantil, feminino entre outras categorias.</li>
-                                <li>Estádio: O estádio João de Oliveira Figueiredo é o Estádio Municipal da cidade de Macaúbas, possui capacidade para cerca de 300 espectadores, ele era conhecido como Roberão pelo seu antigos nome e sua construção foi feita em 1998.</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Unidades de Saúde Existentes</th>
-                        <td>
-                            <ul>
-                                <li>UPA(Unidade de Pronto Atendimento):1</li>
-                                <li>PSF(Programa Saúde da Família):28</li>
-                                <li>Hospital-1</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Esgotamento Sanitário(%)</th>
-                        <td>24,7% da população tem acesso aos serviços de esgotamento sanitário adequado(2010)</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Áreas de APP</th>
-                        <td>--</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">IDH</th>
-                        <td>0,609</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Plano Diretor</th>
-                        <td>Criado em 2007, o Plano Diretor do município de Macaúbas, é uma importante ferramenta para o seu desenvolvimento, uso e ocupação do solo, além de sua ordenação, nele são identificadas e delimitadas as áreas urbanas e rurais e traçadas as estratégias para o seu desenvolvimento, buscando assim assegurar os direitos.</td>
-                    </tr>
-                </tbody>
-            </table>
+                        <colgroup> 
+                            <!--Utiliza esses col para estilizar as colunas, o 1 estiliza os temas das pesquisas e o outro os dados-->
+        
+                            <col class="col-temas">
+                            <col class="col-dados">
+                        </colgroup>
+        
+                        <!--Opcional-->
+                        <caption>Dados das pesquisas de Macaúbas</caption>
+        
+                        <thead class="tabela__cabecalho">
+                            <tr>
+                                <th colspan="1" scope="col">Temas das persquisas:</th>
+                                <th colspan="1" scope="col">Dados:</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody class="tabela__conteudo">
+                            <tr>
+                                <th colspan="1" scope="row">Municípios Limítrofes</th>
+                                <td>
+                                    <ul>
+                                        <li>Boquira, Paratinga, Ibipitanga ao norte.</li>
+                                        <li>Botuporã, Tanque novo e igaporã ao Sul.</li>
+                                        <li>Rio do Pires ao Leste.</li>
+                                        <li>Riacho de Santana ao Oeste.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Área</th>
+                                <td>2459,102 km² de área(2022).</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Altitude</th>
+                                <td>Situado a 690 metros de altitude.</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Coordenadas geográficas</th>
+                                <td>Latitude 13° 01' 10" Sul | Longitude  42° 41' 55" Oeste.</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Clima</th>
+                                <td>O clima macaubense é tropical com estação seca.</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Temperatura Média</th>
+                                <td>24,2°C</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Vegetação</th>
+                                <td>A cobertura vegetal de Macaúbas é formada pela Caatinga, Cerrado e um pouco da Mata Atlântica</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Hidrografia</th>
+                                <td>O município faz parte da região hidrográfica do São Francisco. O abastecimento de água é feito pelo serviço autônomo de Água e Esgoto (SAAE), da prefeitura da cidade, atuante desde 1977. A capitania fluvial do São Francisco abrange o território, administrado pela agência Fluvial de Bom Jesus da Lapa</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">População Absoluta</th>
+                                <td>41,859 habitantes(2022).</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">População Relativa</th>
+                                <td>17,02 hab/km²</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Principais Atividades Econômicas</th>
+                                <td>A economia de Macaúbas se sustenta basicamente da agropecuária, sendo que sua agricultura é composta em sua grande maioria por lavouras de pequeno porte ou de subsistência. A produção é baseada principalmente no feijão catador vendido para o norte e nordeste do país</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Principais Manifestações Culturais</th>
+                                <td>
+                                    <ul>
+                                        <li>Capoeira</li>
+                                        <li>festa da Padroeira</li>
+                                        <li>Fimac</li>
+                                        <li>artesanato</li>
+                                        <li>agricultura familiar</li>
+                                        <li>festas juninas</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Equipamentos Culturais</th>
+                                <td>
+                                    <ul>
+                                        <li>Museu: O museu regional de Macaúbas mantido pela fundação cultural professor José Batista da Motta, foi inaugurada em 11 de dezembro de 1988. Funciona na praça imaculada Conceição, n° 29(artigo 248).</li>
+                                        <li>Biblioteca: Foi instaladavem 16-08-1972, sendo ampliada sua atuação a partir da inauguração do museu em 11-12-1988, sendo patrono a prof. José Batistada Motta, fundador e diretor da fundação e museu.</li>
+                                        <li>Centro Cultural: centro cultural de Macaúbas, prof. José Benedito do Amaral, inaugurado em 27-11-2010 fica localizado na estrada de acesso ao povoada de Olária.</li>
+                                        <li>Centro de artesanato: Foi criado em 1994 pelo professor Ático Vilas Boas em parceria com a prefeitura de Macaúbas, eles iniciou com cerca de 120 alunos no ano de 1998.</li>
+                                        <li>Ginásio: Ginásio poliesportivo Euclides Defensor Menezes (Kidão), construído em 2008 e que abriga cerca de 1000 pessoas. E ocorre campeonatos de futsal durante o ano, masculino, estudantil, feminino entre outras categorias.</li>
+                                        <li>Estádio: O estádio João de Oliveira Figueiredo é o Estádio Municipal da cidade de Macaúbas, possui capacidade para cerca de 300 espectadores, ele era conhecido como Roberão pelo seu antigos nome e sua construção foi feita em 1998.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Unidades de Saúde Existentes</th>
+                                <td>
+                                    <ul>
+                                        <li>UPA(Unidade de Pronto Atendimento):1</li>
+                                        <li>PSF(Programa Saúde da Família):28</li>
+                                        <li>Hospital-1</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Esgotamento Sanitário(%)</th>
+                                <td>24,7% da população tem acesso aos serviços de esgotamento sanitário adequado(2010)</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Áreas de APP</th>
+                                <td>--</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">IDH</th>
+                                <td>0,609</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Plano Diretor</th>
+                                <td>Criado em 2007, o Plano Diretor do município de Macaúbas, é uma importante ferramenta para o seu desenvolvimento, uso e ocupação do solo, além de sua ordenação, nele são identificadas e delimitadas as áreas urbanas e rurais e traçadas as estratégias para o seu desenvolvimento, buscando assim assegurar os direitos.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="nav-economia" role="tabpanel" aria-labelledby="nav-economia-tab">...
+                </div>
+                <div class="tab-pane fade" id="nav-poemas" role="tabpanel" aria-labelledby="nav-poemas-tab">...
+                </div>
+                <div class="tab-pane fade" id="nav-biologia" role="tabpanel" aria-labelledby="nav-biologia-tab">...
+                </div>
+            </div>
+            
         </div>
     </main>
 </body>

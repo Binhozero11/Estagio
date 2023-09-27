@@ -5,135 +5,168 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bacia do Paramirim | estudos escolares para aprendizado</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assests/css/bootstrap.minAntigo.css">
+    <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assests/css/base.css">
+    <link rel="stylesheet" href="assests/css/layout.css">
+    <link rel="stylesheet" href="assests/css/componentes.css">
 </head>
 <body>
     <header class="titulo-municipio">
-        <h1>Conhecendo o Território Bacia do Paramirim Município de <strong>Ibipitanga</strong></h1>
+        <h1>Conhecendo o Território Bacia do Paramirim Município de Ibipitanga</h1>
     </header>
     <main>
         <div class="container">
             <div class="paragrafo-de-resumo">
                 <p>O atual território integrava o município de Ibitiara, do qual foi desmembrado em 16 de julho de 1962. No dia 06 de maio de 1962 foi realizado um plebiscito para decidir sobre sua emancipação, tanto que a população comemora o aniversário da cidade nesta data ao invés do 16 de julho, data da criação do município. Enquanto povoado tinha o nome de Santa Luzia do Barro Vermelho. Em 1937, mudou o topônimo para Ibipitanga.</p>
             </div>
-            <table class="tabela">
+            
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-geografia-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-geografia" type="button" role="tab" aria-controls="nav-geografia"
+                        aria-selected="true">Geografia</button>
+                    <button class="nav-link" id="nav-economia-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-economia" type="button" role="tab" aria-controls="nav-economia"
+                        aria-selected="false">Economia</button>
+                    <button class="nav-link" id="nav-poemas-tab" data-bs-toggle="tab" data-bs-target="#nav-poemas"
+                        type="button" role="tab" aria-controls="nav-poemas" aria-selected="false">Poemas</button>
+                    <button class="nav-link" id="nav-biologia-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-biologia" type="button" role="tab" aria-controls="nav-biologia"
+                        aria-selected="false">Biologia</button>
+                </div>
+            </nav>
 
-                <colgroup> 
-                    <!--Utiliza esses col para estilizar as colunas, o 1 estiliza os temas das pesquisas e o outro os dados-->
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-geografia" role="tabpanel"
+                    aria-labelledby="nav-geografia-tab">
+                    <table class="tabela">
 
-                    <col class="col-temas">
-                    <col class="col-dados">
-                </colgroup>
-
-                <!--Opcional-->
-                <caption>Dados das pesquisas de Ibipitanga</caption>
-
-                <thead class="tabela__cabecalho">
-                    <tr>
-                        <th colspan="1" scope="col">Temas das persquisas:</th>
-                        <th colspan="1" scope="col">Dados:</th>
-                    </tr>
-                </thead>
-                
-                <tbody class="tabela__conteudo">
-                    <tr>
-                        <th colspan="1" scope="row">Municípios Limítrofes</th>
-                        <td>
-                            <ul>
-                                <li>Ibitiara e Novo Horizonte ao Leste</li>
-                                <li>Rio do Pires ao Sul</li>
-                                <li>Macaúbas e Boquira ao Oeste</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Área</th>
-                        <td>954,373 km² de área [2022]</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Altitude</th>
-                        <td>Situado a 492 metros de altitude</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Coordenadas geográficas</th>
-                        <td>Latitude 12° 52’ 55” Sul | Longitude 42° 29’ 09” Oeste</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Clima</th>
-                        <td>O clima Semiárido apresenta altas temperaturas, chuvas escassas e mal distribuídas, com longos períodos de estiagem</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Temperatura Média</th>
-                        <td>32°C</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Vegetação</th>
-                        <td>A vegetação predominante é a caatinga</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Hidrografia</th>
-                        <td>O município de Ibipitanga é banhado pelo rio Paramirim, afluente do Rio São Francisco</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">População Absoluta</th>
-                        <td>13.863 habitantes [2022]</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">População Relativa</th>
-                        <td>14.53 hab/km² [2022]</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Principais Atividades Econômicas</th>
-                        <td>Ibipitanga-BA é uma pequena cidade que se destaca por apresentar novas oportunidades de negócios. O desempenho econômico e o baixo potencial de consumo são os pontos de atenção. Tem como atividade econômica a pecuária</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Principais Manifestações Culturais</th>
-                        <td>
-                            <ul>
-                                <li>sarau cultural</li>
-                                <li>Festa junina</li>
-                                <li>capoeira</li>
-                            </ul>
-                    </td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Equipamentos Culturais</th>
-                        <td>
-                            <ul>
-                                <li>Quadra poliesportiva</li>
-                                <li>biblioteca pública</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Unidades de Saúde Existentes</th>
-                        <td>
-                            <ul>
-                                <li>6 unidades de saúde da família</li>
-                                <li>6 equipes de saúde bucal</li>
-                                <li>4 postos de Saúde</li>
-                                <li>7 Centro de Saúde/Unidade Básica </li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Esgotamento Sanitário(%)</th>
-                        <td>1,6% da população tem acesso aos serviços de esgotamento sanitário adequado(2010)</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Áreas de APP</th>
-                        <td>---</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">IDH</th>
-                        <td>0,584 [2010]</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Plano Diretor</th>
-                        <td>possui plano diretor</td>
-                    </tr>
-                </tbody>
-            </table>
+                        <colgroup> 
+                            <!--Utiliza esses col para estilizar as colunas, o 1 estiliza os temas das pesquisas e o outro os dados-->
+        
+                            <col class="col-temas">
+                            <col class="col-dados">
+                        </colgroup>
+        
+                        <!--Opcional-->
+                        <caption>Dados das pesquisas de Ibipitanga</caption>
+        
+                        <thead class="tabela__cabecalho">
+                            <tr>
+                                <th colspan="1" scope="col">Temas das persquisas:</th>
+                                <th colspan="1" scope="col">Dados:</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody class="tabela__conteudo">
+                            <tr>
+                                <th colspan="1" scope="row">Municípios Limítrofes</th>
+                                <td>
+                                    <ul>
+                                        <li>Ibitiara e Novo Horizonte ao Leste</li>
+                                        <li>Rio do Pires ao Sul</li>
+                                        <li>Macaúbas e Boquira ao Oeste</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Área</th>
+                                <td>954,373 km² de área [2022]</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Altitude</th>
+                                <td>Situado a 492 metros de altitude</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Coordenadas geográficas</th>
+                                <td>Latitude 12° 52’ 55” Sul | Longitude 42° 29’ 09” Oeste</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Clima</th>
+                                <td>O clima Semiárido apresenta altas temperaturas, chuvas escassas e mal distribuídas, com longos períodos de estiagem</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Temperatura Média</th>
+                                <td>32°C</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Vegetação</th>
+                                <td>A vegetação predominante é a caatinga</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Hidrografia</th>
+                                <td>O município de Ibipitanga é banhado pelo rio Paramirim, afluente do Rio São Francisco</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">População Absoluta</th>
+                                <td>13.863 habitantes [2022]</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">População Relativa</th>
+                                <td>14.53 hab/km² [2022]</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Principais Atividades Econômicas</th>
+                                <td>Ibipitanga-BA é uma pequena cidade que se destaca por apresentar novas oportunidades de negócios. O desempenho econômico e o baixo potencial de consumo são os pontos de atenção. Tem como atividade econômica a pecuária</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Principais Manifestações Culturais</th>
+                                <td>
+                                    <ul>
+                                        <li>sarau cultural</li>
+                                        <li>Festa junina</li>
+                                        <li>capoeira</li>
+                                    </ul>
+                            </td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Equipamentos Culturais</th>
+                                <td>
+                                    <ul>
+                                        <li>Quadra poliesportiva</li>
+                                        <li>biblioteca pública</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Unidades de Saúde Existentes</th>
+                                <td>
+                                    <ul>
+                                        <li>6 unidades de saúde da família</li>
+                                        <li>6 equipes de saúde bucal</li>
+                                        <li>4 postos de Saúde</li>
+                                        <li>7 Centro de Saúde/Unidade Básica </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Esgotamento Sanitário(%)</th>
+                                <td>1,6% da população tem acesso aos serviços de esgotamento sanitário adequado(2010)</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Áreas de APP</th>
+                                <td>---</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">IDH</th>
+                                <td>0,584 [2010]</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Plano Diretor</th>
+                                <td>possui plano diretor</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="nav-economia" role="tabpanel" aria-labelledby="nav-economia-tab">...
+                </div>
+                <div class="tab-pane fade" id="nav-poemas" role="tabpanel" aria-labelledby="nav-poemas-tab">...
+                </div>
+                <div class="tab-pane fade" id="nav-biologia" role="tabpanel" aria-labelledby="nav-biologia-tab">...
+                </div>
+            </div>
+            
         </div>
     </main>
 </body>

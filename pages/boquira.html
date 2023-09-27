@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bacia do Paramirim | estudos escolares para aprendizado</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assests/css/bootstrap.minAntigo.css">
+    <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assests/css/base.css">
+    <link rel="stylesheet" href="assests/css/layout.css">
+    <link rel="stylesheet" href="assests/css/componentes.css">
 </head>
+
 <body>
     <header class="titulo-municipio">
         <h1>Conhecendo o Território Bacia do Paramirim Município de Boquira</h1>
@@ -14,129 +20,177 @@
     <main>
         <div class="container">
             <div class="paragrafo-de-resumo">
-                <p>Boquira nasceu do antigo distrito de Macaúbas, antes era o Sítio Macacos, pertencente a família Magalhães, isso por volta de 1807, depois das divisões das terras, denominou-se fazenda Macacos em 1862 e posteriormente passou a Vila Assunção de Nossa Senhora da Abadia Em novembro de 1934, a Vila passou a categoria de distrito com o mesmo nome, desde então o atual município. dispunha de dois distritos: Santa Rita e Assunção. O distrito de Assunção desenvolveu-se de tal forma que representantes do povo na Câmara de Vereadores da Macaúbas entraram com um projeto de emancipação política, aprovado por unanimidade, originando em 6 de abril de 1962, através da Lei Estadual n. 1663, o município de Boquira. O nome Boquira é de origem indígena cujo significado é Broto D`Água.</p>
-            <table class="tabela">
+                <p>Boquira nasceu do antigo distrito de Macaúbas, antes era o Sítio Macacos, pertencente a família
+                    Magalhães, isso por volta de 1807, depois das divisões das terras, denominou-se fazenda Macacos em
+                    1862 e posteriormente passou a Vila Assunção de Nossa Senhora da Abadia Em novembro de 1934, a Vila
+                    passou a categoria de distrito com o mesmo nome, desde então o atual município. dispunha de dois
+                    distritos: Santa Rita e Assunção. O distrito de Assunção desenvolveu-se de tal forma que
+                    representantes do povo na Câmara de Vereadores da Macaúbas entraram com um projeto de emancipação
+                    política, aprovado por unanimidade, originando em 6 de abril de 1962, através da Lei Estadual
+                    n.1663, o município de Boquira. O nome Boquira é de origem indígena cujo significado é Broto D`Água.
+                </p>
+            </div>
 
-                <colgroup> 
-                    <!--Utiliza esses col para estilizar as colunas, o 1 estiliza os temas das pesquisas e o outro os dados-->
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-geografia-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-geografia" type="button" role="tab" aria-controls="nav-geografia"
+                        aria-selected="true">Geografia</button>
+                    <button class="nav-link" id="nav-economia-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-economia" type="button" role="tab" aria-controls="nav-economia"
+                        aria-selected="false">Economia</button>
+                    <button class="nav-link" id="nav-poemas-tab" data-bs-toggle="tab" data-bs-target="#nav-poemas"
+                        type="button" role="tab" aria-controls="nav-poemas" aria-selected="false">Poemas</button>
+                    <button class="nav-link" id="nav-biologia-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-biologia" type="button" role="tab" aria-controls="nav-biologia"
+                        aria-selected="false">Biologia</button>
+                </div>
+            </nav>
 
-                    <col class="col-temas">
-                    <col class="col-dados">
-                </colgroup>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-geografia" role="tabpanel" aria-labelledby="nav-geografia-tab">
+                    <table class="table-active">
 
-                <!--Opcional-->
-                <caption>Dados das pesquisas de Boquira</caption>
+                        <colgroup>
+                            <!--Utiliza esses col para estilizar as colunas, o 1 estiliza os temas das pesquisas e o outro os dados-->
 
-                <thead class="tabela__cabecalho">
-                    <tr>
-                        <th colspan="1" scope="col">Temas das persquisas:</th>
-                        <th colspan="1" scope="col">Dados:</th>
-                    </tr>
-                </thead>
-                
-                <tbody class="tabela__conteudo">
-                    <tr>
-                        <th colspan="1" scope="row">Municípios Limítrofes</th>
-                        <td>
-                            <ul>
-                                <li>Oliveira dos Brejinhos ao Norte</li>
-                                <li>Ibitiara e Ibipitanga ao Leste</li>
-                                <li>Macaúbas ao Sul</li>
-                                <li>Paratinga ao Oeste</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Área</th>
-                        <td>1.426,233 km²[2022] de área</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Altitude</th>
-                        <td>Situado a 560 metros de altitude</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Coordenadas geográficas</th>
-                        <td>Latitude 12° 48’ 50” Sul; Longitude 42° 42’ 32” Oeste</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Clima</th>
-                        <td>O clima do município é Tropical semiárido</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Temperatura Média</th>
-                        <td>24.2ºC</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Vegetação</th>
-                        <td>O principal bioma do município é a caatinga, com uma rica flora adaptada ao clime seco e quente tem árvores espécificas, os Cactos, Algarobas, Juazeiros, Mandacaru dentre outras plantas que possuem uma forma de armazenamento de água, já que os periodos chuvosos ocorrem em poucas épocas do ano.</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Hidrografia</th>
-                        <!--Procurar com Alba-->
-                        <td>---</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">População Absoluta</th>
-                        <td>19.322 habitantes [2022]</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">População Relativa</th>
-                        <td>13,55 hab/km² [2022]</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Principais Atividades Econômicas</th>
-                        <td>A atividade econômica principal é a agropecuária, com destaque para a criação de caprinos e nas épocas das chuvas, o plantio de feijão, milho e palma. Na atividade extrativa, destacam-se frutas como mangaba, umbuzeiro, buriti e Pequi. Esses produtos enriqueceram de iguarias nativas as feiras locais.</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Principais Manifestações Culturais</th>
-                        <td>
-                            <ul>
-                                <li>Quadrilha</li>
-                                <li>São João</li>
-                                <li>Festa da Padroeira Nossa Senhora da Abadia</li>
-                                <li>Festa de Santa Bárbara</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Equipamentos Culturais</th>
-                        <td>
-                            <ul>
-                                <li>Ginásio de Esportes</li>
-                                <li>Biblioteca Municipal</li>
-                                <li></li>
-                            </ul>, Estádio Municipal, </td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Unidades de Saúde Existentes</th>
-                        <td>
-                            <ul>
-                                <li>11 unidades básicas de saúde</li>
-                                <li>1 Hospital público</li>
-                                <li>3 PSFs</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Esgotamento Sanitário(%)</th>
-                        <td>3,1% da população tem acesso aos serviços de esgotamento sanitário adequado(2010)</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Áreas de APP</th>
-                        <td>---</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">IDH</th>
-                        <td>0, 603</td>
-                    </tr>
-                    <tr>
-                        <th colspan="1" scope="row">Plano Diretor</th>
-                        <td>possui plano diretor</td>
-                    </tr>
-                </tbody>
-            </table>
+                            <col class="col-temas">
+                            <col class="col-dados">
+                        </colgroup>
+
+                        <!--Opcional-->
+                        <caption>Dados das pesquisas de Boquira</caption>
+
+                        <thead class="tabela__cabecalho">
+                            <tr>
+                                <th colspan="1" scope="col">Temas das persquisas:</th>
+                                <th colspan="1" scope="col">Dados:</th>
+                            </tr>
+                        </thead>
+
+                        <tbody class="tabela__conteudo">
+                            <tr>
+                                <th colspan="1" scope="row">Municípios Limítrofes</th>
+                                <td>
+                                    <ul>
+                                        <li>Oliveira dos Brejinhos ao Norte</li>
+                                        <li>Ibitiara e Ibipitanga ao Leste</li>
+                                        <li>Macaúbas ao Sul</li>
+                                        <li>Paratinga ao Oeste</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Área</th>
+                                <td>1.426,233 km²[2022] de área</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Altitude</th>
+                                <td>Situado a 560 metros de altitude</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Coordenadas geográficas</th>
+                                <td>Latitude 12° 48’ 50” Sul; Longitude 42° 42’ 32” Oeste</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Clima</th>
+                                <td>O clima do município é Tropical semiárido</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Temperatura Média</th>
+                                <td>24.2ºC</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Vegetação</th>
+                                <td>O principal bioma do município é a caatinga, com uma rica flora adaptada ao
+                                    clime seco e
+                                    quente tem árvores espécificas, os Cactos, Algarobas, Juazeiros, Mandacaru
+                                    dentre outras
+                                    plantas que possuem uma forma de armazenamento de água, já que os periodos
+                                    chuvosos
+                                    ocorrem em poucas épocas do ano.</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Hidrografia</th>
+                                <!--Procurar com Alba-->
+                                <td>---</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">População Absoluta</th>
+                                <td>19.322 habitantes [2022]</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">População Relativa</th>
+                                <td>13,55 hab/km² [2022]</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Principais Atividades Econômicas</th>
+                                <td>A atividade econômica principal é a agropecuária, com destaque para a criação de
+                                    caprinos e nas épocas das chuvas, o plantio de feijão, milho e palma. Na
+                                    atividade
+                                    extrativa, destacam-se frutas como mangaba, umbuzeiro, buriti e Pequi. Esses
+                                    produtos
+                                    enriqueceram de iguarias nativas as feiras locais.</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Principais Manifestações Culturais</th>
+                                <td>
+                                    <ul>
+                                        <li>Quadrilha</li>
+                                        <li>São João</li>
+                                        <li>Festa da Padroeira Nossa Senhora da Abadia</li>
+                                        <li>Festa de Santa Bárbara</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Equipamentos Culturais</th>
+                                <td>
+                                    <ul>
+                                        <li>Ginásio de Esportes</li>
+                                        <li>Biblioteca Municipal</li>
+                                        <li></li>
+                                    </ul>, Estádio Municipal,
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Unidades de Saúde Existentes</th>
+                                <td>
+                                    <ul>
+                                        <li>11 unidades básicas de saúde</li>
+                                        <li>1 Hospital público</li>
+                                        <li>3 PSFs</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Esgotamento Sanitário(%)</th>
+                                <td>3,1% da população tem acesso aos serviços de esgotamento sanitário
+                                    adequado(2010)</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Áreas de APP</th>
+                                <td>---</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">IDH</th>
+                                <td>0, 603</td>
+                            </tr>
+                            <tr>
+                                <th colspan="1" scope="row">Plano Diretor</th>
+                                <td>possui plano diretor</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="nav-economia" role="tabpanel" aria-labelledby="nav-economia-tab">...
+                </div>
+                <div class="tab-pane fade" id="nav-poemas" role="tabpanel" aria-labelledby="nav-poemas-tab">...
+                </div>
+                <div class="tab-pane fade" id="nav-biologia" role="tabpanel" aria-labelledby="nav-biologia-tab">...
+                </div>
+            </div>
         </div>
     </main>
-    
 </body>
 </html>
