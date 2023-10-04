@@ -1,14 +1,32 @@
-@media(min-width: 1200px) {
-    
+@media(min-width: 720px) {
+    nav.nav{
+        margin-right: 3%;
+    }
 }
 
 @media(max-width: 1100px) {
     header.layout-cabecalho h2 {
-        font-size: 1.5em;
+        font-size: 1.3em;
+    }
+
+    nav.nav > div.nav-links > a {
+        padding: 0 13px;
     }
 
     div.layout-titulo h1.titulo{
-        font-size: 3.8em;
+        font-size: 3.5em;
+    }
+
+    div.layout-titulo h2.subTitulo{
+        font-size: 2.5em;
+    }
+
+    div.layout-desenvolvimento--conteudos h2.titulo_desenvolvimento{
+        font-size: 2.5em;
+    }
+
+    div.temas h2{
+        font-size: 2.5em;
     }
 
     main.layout-coluna {
@@ -56,12 +74,24 @@
 }
 
 @media(max-width: 720px){
-    header.layout-cabecalho h2 {
-        font-size: 1.3em;
+    .nav-links{
+        display: none;
+    }
+
+    .nav>#menu {
+        display: inline-block;
     }
 
     div.layout-titulo h1.titulo{
-        font-size: 3.3em;
+        font-size: 2.5em;
+    }
+
+    div.layout-titulo h2.subTitulo{
+        font-size: 2em;
+    }
+
+    div.layout-desenvolvimento--conteudos h2.titulo_desenvolvimento{
+        font-size: 2em;
     }
 
     main.layout-coluna {
@@ -86,7 +116,7 @@
     }
 
     div.temas h2{
-        font-size: 2.2em;
+        font-size: 2em;
     }
 
     .layout-professores{
@@ -118,12 +148,15 @@
     }
 
     div.layout-titulo h1.titulo{
-        font-size: 2.5em;
+        font-size: 2.2em;
     }
 
-    .titulo_desenvolvimento {
-        font-size: 2em;
-        color: #40e0d0;
+    div.layout-titulo h2.subTitulo{
+        font-size: 1.5em;
+    }
+
+    div.layout-desenvolvimento--conteudos h2.titulo_desenvolvimento{
+        font-size: 1.5em;
         margin-top: 10%;
     }
     
@@ -154,7 +187,7 @@
     }
 
     div.temas h2{
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .layout-professores{

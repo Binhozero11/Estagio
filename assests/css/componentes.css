@@ -8,6 +8,7 @@ header.layout-cabecalho h2 {
     margin-left: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 80px;
+    font-size: 1.4em;
 }
 
 #menu {
@@ -20,15 +21,35 @@ header.layout-cabecalho h2 {
     line-height: 77px;
 }
 
+nav.nav > div.nav-links > a {
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #efefef;
+}
+
+nav.nav > div.nav-links > a i {
+    padding-left: 2px;
+}
+
+.nav>.nav-links>a:hover {
+    color: rgb(190, 184, 184);
+}
+
+.nav>.nav-btn, .nav>#menu {
+    display: none;
+}
+
 /*--------------*\
       Título
 \*--------------*/
 
 .titulo {
-    text-align: center;
     font-size: 4.5em;
-    text-shadow: 2px 1.2px#40e0d0;
-    font-family: 'Cinzel';
+}
+
+.subTitulo {
+    font-size: 2.5em;
 }
 
 /*--------------*\
@@ -107,7 +128,7 @@ header.layout-cabecalho h2 {
 \*--------------------------------*/
 
 div.temas h2 {
-    font-size: 2.5em;
+    font-size: 3em;
     color: #40e0d0;
 }
 
@@ -168,11 +189,13 @@ div.ebook a {
     transition: .5s;
     letter-spacing: 1px;
     font-weight: 600;
-  }
-  
-  div.ebook a:hover,  div.ebook a:focus {
+    text-align: center;
+}
+
+div.ebook a:hover,
+div.ebook a:focus {
     box-shadow: none;
-  }
+}
 
 /*--------------*\
       Rodapé
