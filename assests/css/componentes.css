@@ -19,6 +19,11 @@ header.layout-cabecalho h2 {
     height: 50px;
     text-align: center;
     line-height: 77px;
+    cursor: pointer;
+}
+
+.botao-js {
+    margin-left: 200px;
 }
 
 nav.nav > div.nav-links > a {
@@ -57,13 +62,14 @@ nav.nav > div.nav-links > a i {
 \*--------------*/
 
 .layout-desenvolvimento--conteudos {
-    width: 600px;
+    width: 710px;
 }
 
 .titulo_desenvolvimento {
     font-size: 3em;
     color: #40e0d0;
-    margin-top: 10.5%;
+    padding: 15px 0;
+    margin-top: 10%;
 }
 
 .paragrafo_desenvolvimento {

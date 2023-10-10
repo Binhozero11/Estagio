@@ -67,10 +67,6 @@
         padding: 8px;
         font-size: 1.3em;
     }
-
-    div.ebook{
-        margin-top: 160px;
-    }
 }
 
 @media(max-width: 720px){
@@ -92,6 +88,10 @@
 
     div.layout-desenvolvimento--conteudos h2.titulo_desenvolvimento{
         font-size: 2em;
+    }
+
+    .paragrafo_desenvolvimento {
+        padding: 5px 15px;
     }
 
     main.layout-coluna {
@@ -132,10 +132,6 @@
         padding: 8px;
         font-size: 1.2em;
     }
-
-    div.ebook{
-        margin-top: 140px;
-    }
 }
 
 @media(max-width: 500px) {
@@ -162,7 +158,6 @@
     
     .paragrafo_desenvolvimento {
         font-size: 1.1em;
-        padding: 5px 15px;
     }
 
     main.layout-coluna {
@@ -215,6 +210,6 @@
     }
 
     div.ebook{
-        margin-top: 100px;
+        font-size: 1.1em
     }
 }
