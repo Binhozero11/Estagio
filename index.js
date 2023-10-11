@@ -2,9 +2,6 @@ const menuButton = document.querySelector("nav i")
 const divLinks = document.querySelector("div.nav-links")
 const pagina = document.querySelector("main.cont-js")
 const nav = document.querySelector("nav.nav")
-function isViewTablet() {
-    return window.innerWidth >= 720
-}
 menuButton.addEventListener("click", () => {
     menuButton.classList.toggle("botao-js")
     divLinks.classList.toggle("nav-menu")
@@ -18,9 +15,13 @@ menuButton.addEventListener("click", () => {
         })
     }
 })
+
+function tamanhoDaTelaMenorQue720() {
+    return window.innerWidth >= 720
+}
 document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('resize', () => {
-        let tamanhoDaTela = isViewTablet();
+        let tamanhoDaTela = tamanhoDaTelaMenorQue720();
         if (tamanhoDaTela === true) {
             menuButton.classList.remove("botao-js")
             divLinks.classList.remove("nav-menu")
@@ -28,3 +29,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 })
+

@@ -1,1 +1,2 @@
-const divs = document.querySelectorAll("div.nome-linkMunicipio h2")
+const url = require("./eventoMudarFundo")
+console.log(url);
