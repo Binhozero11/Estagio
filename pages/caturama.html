@@ -10,36 +10,45 @@
     <link rel="stylesheet" href="../assests/css/baseGeral.css">
     <link rel="stylesheet" href="../assests/css/layout.css">
     <link rel="stylesheet" href="../assests/css/componentes.css">
+    <script src="../assests/js/bootstrap.min.js" ></script>
+    <style>
+        body {
+            background-image: url(../assests/images/fundo-municipios/Caturama.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
     <header class="titulo-municipio">
         <h1>Conhecendo o Território Bacia do Paramirim Município de Caturama</h1>
     </header>
     <main>
-        <div class="container">
-            <div class="paragrafo-de-resumo">
-                <p>A partir de 1930, continuando como distrito de Macaúbas, quando vigora-se o Decreto-Lei nº 11089, o até então distrito de nome “São Sebastião” passa a receber o nome de “Caturama”, boa sorte em tupi-guarani. Em 22 de março de 1962, um outro distrito chamado de Botuporã se emancipa de Macaúbas e consigo carrega Caturama como seu distrito. Em 13 de junho de 1989, Caturama se desmembra de Botuporã e é emancipada (torna-se mais um município brasileiro).</p>
-            </div>
-            
+        <div class="container">            
             <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <button class="nav-link active" id="nav-geografia-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-geografia" type="button" role="tab" aria-controls="nav-geografia"
-                        aria-selected="true">Geografia</button>
-                    <button class="nav-link" id="nav-economia-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-economia" type="button" role="tab" aria-controls="nav-economia"
-                        aria-selected="false">Economia</button>
-                    <button class="nav-link" id="nav-poemas-tab" data-bs-toggle="tab" data-bs-target="#nav-poemas"
-                        type="button" role="tab" aria-controls="nav-poemas" aria-selected="false">Poemas</button>
+                <div class="nav navbar-light" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-aspectosGeográficos-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-aspectosGeográficos" type="button" role="tab" aria-controls="nav-aspectosGeográficos"
+                        aria-selected="true">Aspectos Geográficos
+                    </button>
+                    <button class="nav-link" id="nav-historia-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-historia" type="button" role="tab" aria-controls="nav-historia"
+                        aria-selected="false">Historia
+                    </button>
                     <button class="nav-link" id="nav-biologia-tab" data-bs-toggle="tab"
                         data-bs-target="#nav-biologia" type="button" role="tab" aria-controls="nav-biologia"
-                        aria-selected="false">Biologia</button>
+                        aria-selected="false">Biologia
+                    </button>
+                    <button class="nav-link" id="nav-contatos-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-contatos" type="button" role="tab" aria-controls="nav-contatos"
+                    aria-selected="false">Contatos
+                </button>
                 </div>
             </nav>
 
             <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-geografia" role="tabpanel"
-                    aria-labelledby="nav-geografia-tab">
+                <div class="tab-pane fade show active" id="nav-aspectosGeográficos" role="tabpanel"
+                    aria-labelledby="nav-aspectosGeográficos-tab">
                     <table class="tabela">
 
                         <colgroup> 
@@ -151,11 +160,14 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="tab-pane fade" id="nav-economia" role="tabpanel" aria-labelledby="nav-economia-tab">...
-                </div>
-                <div class="tab-pane fade" id="nav-poemas" role="tabpanel" aria-labelledby="nav-poemas-tab">...
+                <div class="tab-pane fade" id="nav-historia" role="tabpanel" aria-labelledby="nav-historia-tab">
+                    <div class="paragrafo-de-resumo">
+                        <p>A partir de 1930, continuando como distrito de Macaúbas, quando vigora-se o Decreto-Lei nº 11089, o até então distrito de nome “São Sebastião” passa a receber o nome de “Caturama”, boa sorte em tupi-guarani. Em 22 de março de 1962, um outro distrito chamado de Botuporã se emancipa de Macaúbas e consigo carrega Caturama como seu distrito. Em 13 de junho de 1989, Caturama se desmembra de Botuporã e é emancipada (torna-se mais um município brasileiro).</p>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="nav-biologia" role="tabpanel" aria-labelledby="nav-biologia-tab">...
+                </div>
+                <div class="tab-pane fade" id="nav-contatos" role="tabpanel" aria-labelledby="nav-contatos-tab">...
                 </div>
             </div>
         </div>

@@ -10,6 +10,15 @@
     <link rel="stylesheet" href="../assests/css/baseGeral.css">
     <link rel="stylesheet" href="../assests/css/layout.css">
     <link rel="stylesheet" href="../assests/css/componentes.css">
+    <script src="../assests/js/bootstrap.min.js" ></script>
+    <style>
+        body {
+            background-image: url(../assests/images/fundo-municipios/paramirim.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 12%;
+        }
+    </style>
 </head>
 <body>
     <header class="titulo-municipio">
@@ -17,29 +26,29 @@
     </header>
     <main>
         <div class="container">
-            <div class="paragrafo-de-resumo">
-                <p>A primeira entrada no território deu-se em consequência da colonização e exploração das minas do rio de Contas, quando brasileiros e portugueses, seguindo as margens do rio Brumado alcançaram as minas de ouro do Morro do Fogo, perto do Vale do Paramirim, onde hoje está localizada a cidade deste nome. Com a compra de terras ao Conde da Ponte, começa o ajuntamento humano que deu início à povoação denominada Arraial de Morro do Fogo, que seria mais tarde a cidade de Paramirim. O topônimo Paramirim é de origem tupi-guarani e significa o rio ou mar pequeno.</p>
-            </div>
-
             <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <button class="nav-link active" id="nav-geografia-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-geografia" type="button" role="tab" aria-controls="nav-geografia"
-                        aria-selected="true">Geografia</button>
-                    <button class="nav-link" id="nav-economia-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-economia" type="button" role="tab" aria-controls="nav-economia"
-                        aria-selected="false">Economia</button>
-                    <button class="nav-link" id="nav-poemas-tab" data-bs-toggle="tab" data-bs-target="#nav-poemas"
-                        type="button" role="tab" aria-controls="nav-poemas" aria-selected="false">Poemas</button>
+                <div class="nav navbar-light" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-aspectosGeográficos-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-aspectosGeográficos" type="button" role="tab" aria-controls="nav-aspectosGeográficos"
+                        aria-selected="true">Aspectos Geográficos
+                    </button>
+                    <button class="nav-link" id="nav-historia-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-historia" type="button" role="tab" aria-controls="nav-historia"
+                        aria-selected="false">Historia
+                    </button>
                     <button class="nav-link" id="nav-biologia-tab" data-bs-toggle="tab"
                         data-bs-target="#nav-biologia" type="button" role="tab" aria-controls="nav-biologia"
-                        aria-selected="false">Biologia</button>
+                        aria-selected="false">Biologia
+                    </button>
+                    <button class="nav-link" id="nav-contatos-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-contatos" type="button" role="tab" aria-controls="nav-contatos"
+                    aria-selected="false">Contatos
+                </button>
                 </div>
             </nav>
 
             <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-geografia" role="tabpanel"
-                    aria-labelledby="nav-geografia-tab">
+                <div class="tab-pane fade show active" id="nav-aspectosGeográficos" role="tabpanel" aria-labelledby="nav-aspectosGeográficos-tab">
                     <table class="tabela">
 
                         <colgroup> 
@@ -164,11 +173,14 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="tab-pane fade" id="nav-economia" role="tabpanel" aria-labelledby="nav-economia-tab">...
-                </div>
-                <div class="tab-pane fade" id="nav-poemas" role="tabpanel" aria-labelledby="nav-poemas-tab">...
+                <div class="tab-pane fade" id="nav-historia" role="tabpanel" aria-labelledby="nav-historia-tab">
+                    <div class="paragrafo-de-resumo">
+                        <p>A primeira entrada no território deu-se em consequência da colonização e exploração das minas do rio de Contas, quando brasileiros e portugueses, seguindo as margens do rio Brumado alcançaram as minas de ouro do Morro do Fogo, perto do Vale do Paramirim, onde hoje está localizada a cidade deste nome. Com a compra de terras ao Conde da Ponte, começa o ajuntamento humano que deu início à povoação denominada Arraial de Morro do Fogo, que seria mais tarde a cidade de Paramirim. O topônimo Paramirim é de origem tupi-guarani e significa o rio ou mar pequeno.</p>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="nav-biologia" role="tabpanel" aria-labelledby="nav-biologia-tab">...
+                </div>
+                <div class="tab-pane fade" id="nav-contatos" role="tabpanel" aria-labelledby="nav-contatos-tab">...
                 </div>
             </div>
             

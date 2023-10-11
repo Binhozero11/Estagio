@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../assests/css/baseGeral.css"> 
     <link rel="stylesheet" href="../assests/css/layout.css">
     <link rel="stylesheet" href="../assests/css/componentes.css">
+    <script src="../assests/js/bootstrap.min.js" ></script>
 </head>
 
 <body>
@@ -19,37 +20,30 @@
     </header>
     <main>
         <div class="container">
-            <div class="paragrafo-de-resumo">
-                <p>Boquira nasceu do antigo distrito de Macaúbas, antes era o Sítio Macacos, pertencente a família
-                    Magalhães, isso por volta de 1807, depois das divisões das terras, denominou-se fazenda Macacos em
-                    1862 e posteriormente passou a Vila Assunção de Nossa Senhora da Abadia Em novembro de 1934, a Vila
-                    passou a categoria de distrito com o mesmo nome, desde então o atual município. dispunha de dois
-                    distritos: Santa Rita e Assunção. O distrito de Assunção desenvolveu-se de tal forma que
-                    representantes do povo na Câmara de Vereadores da Macaúbas entraram com um projeto de emancipação
-                    política, aprovado por unanimidade, originando em 6 de abril de 1962, através da Lei Estadual
-                    n.1663, o município de Boquira. O nome Boquira é de origem indígena cujo significado é Broto D`Água.
-                </p>
-            </div>
-
             <nav>
                 <div class="nav navbar-light" id="nav-tab" role="tablist">
-                    <button class="nav-link active" id="nav-geografia-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-geografia" type="button" role="tab" aria-controls="nav-geografia"
-                        aria-selected="true">Geografia</button>
-                    <button class="nav-link" id="nav-economia-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-economia" type="button" role="tab" aria-controls="nav-economia"
-                        aria-selected="false">Economia</button>
-                    <button class="nav-link" id="nav-poemas-tab" data-bs-toggle="tab" data-bs-target="#nav-poemas"
-                        type="button" role="tab" aria-controls="nav-poemas" aria-selected="false">Poemas</button>
+                    <button class="nav-link active" id="nav-aspectosGeográficos-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-aspectosGeográficos" type="button" role="tab" aria-controls="nav-aspectosGeográficos"
+                        aria-selected="true">Aspectos Geográficos
+                    </button>
+                    <button class="nav-link" id="nav-historia-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-historia" type="button" role="tab" aria-controls="nav-historia"
+                        aria-selected="false">Historia
+                    </button>
                     <button class="nav-link" id="nav-biologia-tab" data-bs-toggle="tab"
                         data-bs-target="#nav-biologia" type="button" role="tab" aria-controls="nav-biologia"
-                        aria-selected="false">Biologia</button>
+                        aria-selected="false">Biologia
+                    </button>
+                    <button class="nav-link" id="nav-contatos-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-contatos" type="button" role="tab" aria-controls="nav-contatos"
+                    aria-selected="false">Contatos
+                </button>
                 </div>
             </nav>
 
             <div class="table-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-geografia" role="tabpanel" aria-labelledby="nav-geografia-tab">
-                    <table class="table table-light">
+                <div class="tab-pane fade show active" id="nav-aspectosGeográficos" role="tabpanel" aria-labelledby="nav-aspectosGeográficos-tab">
+                    <table class="table table-dark">
 
                         <colgroup>
                             <!--Utiliza esses col para estilizar as colunas, o 1 estiliza os temas das pesquisas e o outro os dados-->
@@ -149,8 +143,8 @@
                                     <ul>
                                         <li>Ginásio de Esportes</li>
                                         <li>Biblioteca Municipal</li>
-                                        <li></li>
-                                    </ul>, Estádio Municipal,
+                                        <li>Estádio Municipal</li>
+                                    </ul>
                                 </td>
                             </tr>
                             <tr>
@@ -183,11 +177,22 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="tab-pane fade" id="nav-economia" role="tabpanel" aria-labelledby="nav-economia-tab">...
-                </div>
-                <div class="tab-pane fade" id="nav-poemas" role="tabpanel" aria-labelledby="nav-poemas-tab">...
+                <div class="tab-pane fade" id="nav-historia" role="tabpanel" aria-labelledby="nav-historia-tab">
+                    <div class="paragrafo-de-resumo">
+                        <p>Boquira nasceu do antigo distrito de Macaúbas, antes era o Sítio Macacos, pertencente a família
+                            Magalhães, isso por volta de 1807, depois das divisões das terras, denominou-se fazenda Macacos em
+                            1862 e posteriormente passou a Vila Assunção de Nossa Senhora da Abadia Em novembro de 1934, a Vila
+                            passou a categoria de distrito com o mesmo nome, desde então o atual município. dispunha de dois
+                            distritos: Santa Rita e Assunção. O distrito de Assunção desenvolveu-se de tal forma que
+                            representantes do povo na Câmara de Vereadores da Macaúbas entraram com um projeto de emancipação
+                            política, aprovado por unanimidade, originando em 6 de abril de 1962, através da Lei Estadual
+                            n.1663, o município de Boquira. O nome Boquira é de origem indígena cujo significado é Broto D`Água.
+                        </p>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="nav-biologia" role="tabpanel" aria-labelledby="nav-biologia-tab">...
+                </div>
+                <div class="tab-pane fade" id="nav-contatos" role="tabpanel" aria-labelledby="nav-contatos-tab">...
                 </div>
             </div>
         </div>

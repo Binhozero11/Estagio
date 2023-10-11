@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../assests/css/baseGeral.css">
     <link rel="stylesheet" href="../assests/css/layout.css">
     <link rel="stylesheet" href="../assests/css/componentes.css">
+    <script src="../assests/js/bootstrap.min.js" ></script>
 </head>
 <body>
     <header class="titulo-municipio">
@@ -17,35 +18,29 @@
     </header>
     <main>
         <div class="container">
-            <div class="paragrafo-de-resumo">
-                <p>A formação do município teve o seu marco inicial no século XVIII, com a chegada da família Pires de origem Portuguesa, que foi a primeira a se instalar naquelas terras, criando a Fazenda Pires, cujo nome foi dado ao curso d’água que passa próximo a fazenda. Esses portugueses colonizaram os arraiais Vila Velha, Morro do Fogo (povoado hoje situado no município de Érico Cardoso), Canabravinha (pertence hoje ao município de Paramirim)
-                e Santa Maria do Ouro (hoje Ibiajara).<br> Santa Maria do Ouro, foi o povoado mais antigo do município, e era frequentada pelos Portugueses, tropeiros e viajantes que se dirigiam à Chapada Diamantina. Após a queda da mineração de ouro, moradores de Santa Maria do Ouro e do Morro do Fogo, criam fazendas no território rio-pirense. Além do ouro, a expansão da lavoura e da pecuária atraiu pessoas que se fixaram na Fazenda Pires, surgindo
-                assim o povoado de Rio do Pires (hoje sede do município de mesmo nome). Em 1927, inicia-se a feira livre e é erguida a capela Senhor do Bonfim. O município passou a pertencer à Paramirim no ano de 1909, quando foi criado o distrito paramirinhense de
-                Santa Maria do Ouro, que mais tarde daria o nome de Ibiajara. Com o crescimento do povoado de Rio do Pires
-                cria-se outro distrito paramirinhense, com terras pertencentes ao distrito de Ibiajara.
-                Em 17 de novembro de 1961, sanciona-se a Lei Estadual n° 628, desmembrando do município de Paramirim os
-                distritos de Ibiajara e Rio do Pires, para formar o novo município (Rio do Pires).</p>
-            </div>
-
             <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <button class="nav-link active" id="nav-geografia-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-geografia" type="button" role="tab" aria-controls="nav-geografia"
-                        aria-selected="true">Geografia</button>
-                    <button class="nav-link" id="nav-economia-tab" data-bs-toggle="tab"
-                        data-bs-target="#nav-economia" type="button" role="tab" aria-controls="nav-economia"
-                        aria-selected="false">Economia</button>
-                    <button class="nav-link" id="nav-poemas-tab" data-bs-toggle="tab" data-bs-target="#nav-poemas"
-                        type="button" role="tab" aria-controls="nav-poemas" aria-selected="false">Poemas</button>
+                <div class="nav navbar-light" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-aspectosGeográficos-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-aspectosGeográficos" type="button" role="tab" aria-controls="nav-aspectosGeográficos"
+                        aria-selected="true">Aspectos Geográficos
+                    </button>
+                    <button class="nav-link" id="nav-historia-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-historia" type="button" role="tab" aria-controls="nav-historia"
+                        aria-selected="false">Historia
+                    </button>
                     <button class="nav-link" id="nav-biologia-tab" data-bs-toggle="tab"
                         data-bs-target="#nav-biologia" type="button" role="tab" aria-controls="nav-biologia"
-                        aria-selected="false">Biologia</button>
+                        aria-selected="false">Biologia
+                    </button>
+                    <button class="nav-link" id="nav-contatos-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-contatos" type="button" role="tab" aria-controls="nav-contatos"
+                    aria-selected="false">Contatos
+                </button>
                 </div>
             </nav>
 
             <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-geografia" role="tabpanel"
-                    aria-labelledby="nav-geografia-tab">
+                <div class="tab-pane fade show active" id="nav-aspectosGeográficos" role="tabpanel" aria-labelledby="nav-aspectosGeográficos-tab">
                     <table class="tabela">
 
                         <colgroup> 
@@ -165,11 +160,20 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="tab-pane fade" id="nav-economia" role="tabpanel" aria-labelledby="nav-economia-tab">...
-                </div>
-                <div class="tab-pane fade" id="nav-poemas" role="tabpanel" aria-labelledby="nav-poemas-tab">...
+                <div class="tab-pane fade" id="nav-historia" role="tabpanel" aria-labelledby="nav-historia-tab">
+                    <div class="paragrafo-de-resumo">
+                        <p>A formação do município teve o seu marco inicial no século XVIII, com a chegada da família Pires de origem Portuguesa, que foi a primeira a se instalar naquelas terras, criando a Fazenda Pires, cujo nome foi dado ao curso d’água que passa próximo a fazenda. Esses portugueses colonizaram os arraiais Vila Velha, Morro do Fogo (povoado hoje situado no município de Érico Cardoso), Canabravinha (pertence hoje ao município de Paramirim)
+                        e Santa Maria do Ouro (hoje Ibiajara).<br> Santa Maria do Ouro, foi o povoado mais antigo do município, e era frequentada pelos Portugueses, tropeiros e viajantes que se dirigiam à Chapada Diamantina. Após a queda da mineração de ouro, moradores de Santa Maria do Ouro e do Morro do Fogo, criam fazendas no território rio-pirense. Além do ouro, a expansão da lavoura e da pecuária atraiu pessoas que se fixaram na Fazenda Pires, surgindo
+                        assim o povoado de Rio do Pires (hoje sede do município de mesmo nome). Em 1927, inicia-se a feira livre e é erguida a capela Senhor do Bonfim. O município passou a pertencer à Paramirim no ano de 1909, quando foi criado o distrito paramirinhense de
+                        Santa Maria do Ouro, que mais tarde daria o nome de Ibiajara. Com o crescimento do povoado de Rio do Pires
+                        cria-se outro distrito paramirinhense, com terras pertencentes ao distrito de Ibiajara.
+                        Em 17 de novembro de 1961, sanciona-se a Lei Estadual n° 628, desmembrando do município de Paramirim os
+                        distritos de Ibiajara e Rio do Pires, para formar o novo município (Rio do Pires).</p>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="nav-biologia" role="tabpanel" aria-labelledby="nav-biologia-tab">...
+                </div>
+                <div class="tab-pane fade" id="nav-contatos" role="tabpanel" aria-labelledby="nav-contatos-tab">...
                 </div>
             </div>
             

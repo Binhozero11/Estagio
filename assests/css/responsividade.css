@@ -29,7 +29,7 @@
         font-size: 2.5em;
     }
 
-    main.layout-coluna {
+    div.layout-coluna {
         gap: 40px;
     }
 
@@ -94,7 +94,7 @@
         padding: 5px 15px;
     }
 
-    main.layout-coluna {
+    div.layout-coluna {
         gap: 25px;
     }
 
@@ -160,7 +160,7 @@
         font-size: 1.1em;
     }
 
-    main.layout-coluna {
+    div.layout-coluna {
         gap: 30px;
     }
 
