@@ -1,6 +1,10 @@
-const menuButton = document.querySelector("nav i")
+/*-----------------------*\
+    botao menu
+/*-----------------------*/
+
+const menuButton = document.querySelector("nav i#menu")
 const divLinks = document.querySelector("div.nav-links")
-const pagina = document.querySelector("main.cont-js")
+const pagina = document.querySelector("main")
 const nav = document.querySelector("nav.nav")
 menuButton.addEventListener("click", () => {
     menuButton.classList.toggle("botao-js")

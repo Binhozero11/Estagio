@@ -58,7 +58,7 @@ nav.nav > div.nav-links > a {
     color: #efefef;
 }
 
-nav.nav > div.nav-links > a i {
+nav.nav > div.nav-links > a i#menu {
     padding-left: 2px;
 }
 
@@ -92,7 +92,7 @@ nav div.nav-menu {
     width: 150px;
   }
   
-  nav div.nav-menu a i {
+  nav div.nav-menu a i#menu {
     display: none;
   }
 
