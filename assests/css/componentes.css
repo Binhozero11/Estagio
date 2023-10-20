@@ -4,7 +4,12 @@
     Cabeçalho
 \*--------------*/
 
-header.layout-cabecalho h2 {
+header.layout-cabecalho a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header.layout-cabecalho a h2 {
     margin-left: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 80px;
