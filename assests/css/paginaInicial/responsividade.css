@@ -29,20 +29,20 @@
         font-size: 2.5em;
     }
 
-    div.layout-coluna {
+    div.layout-municipios {
         gap: 40px;
     }
 
-    .layout-coluna--coluna__card{
+    .layout-municipios--coluna__card{
         height: 310px;
     }
 
-    .layout-coluna--coluna__card img {
+    .layout-municipios--coluna__card img {
         width: 280px;
         height: 200px;
     }
 
-    .layout-coluna--coluna__card div h2{
+    .layout-municipios--coluna__card div h2{
         font-size: 1.2em;
     }
 
@@ -94,20 +94,20 @@
         padding: 5px 15px;
     }
 
-    div.layout-coluna {
+    div.layout-municipios {
         gap: 25px;
     }
 
-    .layout-coluna--coluna__card{
+    .layout-municipios--coluna__card{
         height: 290px;
     }
 
-    .layout-coluna--coluna__card img {
+    .layout-municipios--coluna__card img {
         width: 260px;
         height: 180px;
     }
 
-    .layout-coluna--coluna__card div h2{
+    .layout-municipios--coluna__card div h2{
         font-size: 1.1em;
     }
 
@@ -160,20 +160,20 @@
         font-size: 1.1em;
     }
 
-    div.layout-coluna {
+    div.layout-municipios {
         gap: 30px;
     }
 
-    .layout-coluna--coluna__card{
+    .layout-municipios--coluna__card{
         height: 290px;
     }
 
-    .layout-coluna--coluna__card img {
+    .layout-municipios--coluna__card img {
         width: 240px;
         height: 180px;
     }
 
-    .layout-coluna--coluna__card div h2{
+    .layout-municipios--coluna__card div h2{
         font-size: 1.1em;
     }
 

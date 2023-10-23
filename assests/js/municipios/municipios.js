@@ -24,14 +24,6 @@ const htmlDoHeader =
 header.innerHTML = htmlDoHeader
 
 /*-----------------------*\
-    botao trocar tema
-/*-----------------------*/
-
-
-
-
-
-/*-----------------------*\
     footer dos municipios
 /*-----------------------*/
 

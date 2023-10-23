@@ -56,7 +56,7 @@ section.layout-desenvolvimento {
   Layout municípios
 \*------------------*/
 
-div.layout-coluna {
+div.layout-municipios {
   display: flex;
   justify-content: center;
   align-items: center;

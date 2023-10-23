@@ -138,11 +138,11 @@ nav div.nav-menu {
     letter-spacing: 1px;
 }
 
-/*--------------*\
-   Coluna Card
-\*--------------*/
+/*----------------*\
+   municipios Card
+\*----------------*/
 
-.layout-coluna--coluna__card {
+.layout-municipios--coluna__card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,14 +152,14 @@ nav div.nav-menu {
     box-shadow: 0 4px #40e0d0;
 }
 
-.layout-coluna--coluna__card img {
+.layout-municipios--coluna__card img {
     border: 20px solid transparent;
     border-image: url(../images/moldura02.jpg) 25% stretch;
     width: 400px;
     height: 250px;
 }
 
-.layout-coluna--coluna__card div {
+.layout-municipios--coluna__card div {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -167,13 +167,13 @@ nav div.nav-menu {
     transform: translateY(35%);
 }
 
-.layout-coluna--coluna__card div h2 {
+.layout-municipios--coluna__card div h2 {
     color: #fff;
     font-size: 1.4em;
     font-weight: 700;
 }
 
-.layout-coluna--coluna__card div a {
+.layout-municipios--coluna__card div a {
     padding: 8px;
     text-align: center;
     width: 80px;
@@ -186,8 +186,8 @@ nav div.nav-menu {
     color: #fff;
 }
 
-.layout-coluna--coluna__card div a:hover,
-.layout-coluna--coluna__card div a:focus {
+.layout-municipios--coluna__card div a:hover,
+.layout-municipios--coluna__card div a:focus {
     transform: scale(1.1);
 }
 
