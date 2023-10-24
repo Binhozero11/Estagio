@@ -11,3 +11,54 @@ main {
 footer{
     flex-shrink: 0;
 }
+
+/*-----------------------*\
+  Layout disciplinas.html
+\*-----------------------*/
+
+main.disciplinas {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+main.disciplinas h1 {
+    font-family: "roboto";
+    font-size: 40px;
+    color: #40e0d0;
+}
+
+div.container-disciplinas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1300px;
+    gap: 30px;
+    justify-content: center;
+}
+
+section.layout-disciplinas{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000;
+    border: 2px solid #40e0d0;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+section.layout-disciplinas img {
+    width: 200px;
+    height: 100%;
+}
+
+section.layout-disciplinas div {
+    padding: 0 10px;
+    height: 100%;
+    text-align: center;
+}
