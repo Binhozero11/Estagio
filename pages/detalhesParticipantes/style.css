@@ -18,47 +18,59 @@ footer{
 
 main.disciplinas {
     height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-    gap: 30px;
+    text-align: center;
 }
 
 main.disciplinas h1 {
     font-family: "roboto";
     font-size: 40px;
     color: #40e0d0;
+    margin-top: 40px;
 }
 
 div.container-disciplinas{
     display: flex;
+    height: auto;
     flex-wrap: wrap;
     align-items: center;
-    width: 1300px;
+    width: auto;
     gap: 30px;
     justify-content: center;
+    margin: 20px 0;
 }
 
 section.layout-disciplinas{
-    width: 600px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     background-color: #000;
     border: 2px solid #40e0d0;
-    border-radius: 3%;
-    overflow: hidden;
+    border-radius: 2%;
 }
 
-section.layout-disciplinas img {
+section.layout-disciplinas h2{
+    padding: 10px 0;
+    width: 100%;
+}
+
+section.layout-disciplinas div.layout-disciplinas--caixa {
+    height: 100%;
+    text-align: center;
+    border-top: 2px solid #40e0d0;
+    overflow: hidden;
+    display: flex;
+}
+
+section.layout-disciplinas div img {
     width: 200px;
     height: 100%;
 }
 
-section.layout-disciplinas div {
-    padding: 0 10px;
-    height: 100%;
-    text-align: center;
+section.layout-disciplinas div.layout-disciplinas--caixa div.layout-disciplinas--informacoes{
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    text-align: justify;
 }

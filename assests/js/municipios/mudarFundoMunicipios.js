@@ -16,15 +16,15 @@ trocaDeTema.addEventListener("click", () => {
 })
 
 const images = {
-    boquira: "../assests/images/fundo-municipios/boquira/Boquira.jpg",
-    botupora: "../assests/images/fundo-municipios/botupora/botuporã.jpeg",
-    caturama: "../assests/images/fundo-municipios/caturama/Caturama.jpg",
-    ericoCardoso: "../assests/images/fundo-municipios/ericoCardoso/Érico-cardoso.png",
-    ibipitanga: "../assests/images/fundo-municipios/ibipitanga/ibipitanga.jpg",
-    macaubas: "../assests/images/fundo-municipios/macaubas/macaúbas.png",
-    paramirim: "../assests/images/fundo-municipios/paramirim/paramirim.png",
-    rioDoPires: "../assests/images/fundo-municipios/rioDoPires/rio-do-pires.jpg",
+    boquira: "../assests/images/fundo-pagina-municipios/boquira/Boquira.jpg",
+    botupora: "../assests/images/fundo-pagina-municipios/botupora/botuporã.jpeg",
+    caturama: "../assests/images/fundo-pagina-municipios/caturama/Caturama.jpg",
+    ericoCardoso: "../assests/images/fundo-pagina-municipios/ericoCardoso/Érico-cardoso.png",
+    ibipitanga: "../assests/images/fundo-pagina-municipios/ibipitanga/ibipitanga.jpg",
+    macaubas: "../assests/images/fundo-pagina-municipios/macaubas/macaúbas.png",
+    paramirim: "../assests/images/fundo-pagina-municipios/paramirim/paramirim.png",
+    rioDoPires: "../assests/images/fundo-pagina-municipios/rioDoPires/rio-do-pires.jpg",
 }
 
-const imagemPadrao = "../assests/images/Fundo_título2.jpg"
+const imagemPadrao = "../assests/images/fundo.jpg"
 

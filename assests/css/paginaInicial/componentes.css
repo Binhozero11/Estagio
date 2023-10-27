@@ -154,9 +154,9 @@ nav div.nav-menu {
 
 .layout-municipios--coluna__card img {
     border: 20px solid transparent;
-    border-image: url(../images/moldura02.jpg) 25% stretch;
-    width: 400px;
-    height: 250px;
+    border-image: url(../../images/moldura.jpg) 25% stretch;
+    width: 240px;
+    height: 180px;
 }
 
 .layout-municipios--coluna__card div {

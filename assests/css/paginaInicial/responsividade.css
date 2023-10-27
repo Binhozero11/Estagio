@@ -37,10 +37,6 @@
         height: 310px;
     }
 
-    .layout-municipios--coluna__card img {
-        width: 280px;
-        height: 200px;
-    }
 
     .layout-municipios--coluna__card div h2{
         font-size: 1.2em;
@@ -102,11 +98,6 @@
         height: 290px;
     }
 
-    .layout-municipios--coluna__card img {
-        width: 260px;
-        height: 180px;
-    }
-
     .layout-municipios--coluna__card div h2{
         font-size: 1.1em;
     }
@@ -166,11 +157,6 @@
 
     .layout-municipios--coluna__card{
         height: 290px;
-    }
-
-    .layout-municipios--coluna__card img {
-        width: 240px;
-        height: 180px;
     }
 
     .layout-municipios--coluna__card div h2{

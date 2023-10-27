@@ -9,6 +9,3 @@ class TelaViewEpub  {
 
 let btn = document.querySelector('#btn');
 
-btn.onclick = function() {
-    barra.classList.toggle('active');
-}
