@@ -152,8 +152,14 @@ nav div.nav-menu {
     box-shadow: 0 4px #40e0d0;
 }
 
+.layout-municipios--coluna__card picture{
+    background: url(../../images/moldura.jpg) no-repeat;
+    background-size: contain;
+
+}
+
 .layout-municipios--coluna__card img {
-    border: 20px solid transparent;
+    padding: 20px;
 }
 
 .layout-municipios--coluna__card div {

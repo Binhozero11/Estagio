@@ -37,6 +37,9 @@
         height: 310px;
     }
 
+    .layout-municipios--coluna__card picture{
+        background: url(../../images/imagens-index.html-200x140/moldura-240x180.jpg); 
+    }
 
     .layout-municipios--coluna__card div h2{
         font-size: 1.2em;
