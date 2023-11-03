@@ -153,13 +153,18 @@ nav div.nav-menu {
 }
 
 .layout-municipios--coluna__card picture{
-    background: url(../../images/moldura.jpg) no-repeat;
-    background-size: contain;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../../images/imagens-index.html-400x300/moldura-360x260.jpg) no-repeat;
+    background-size: cover;
+    width: 365px;
+    height: 258px;
 }
 
 .layout-municipios--coluna__card img {
-    padding: 20px;
+    width: 300px;
+    height: 200px;
 }
 
 .layout-municipios--coluna__card div {

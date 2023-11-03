@@ -38,7 +38,14 @@
     }
 
     .layout-municipios--coluna__card picture{
-        background: url(../../images/imagens-index.html-200x140/moldura-240x180.jpg); 
+        background: url(../../images/imagens-index.html-200x140/moldura-240x180.jpg);
+        width: 240px;
+        height: 180px;
+    }
+
+    .layout-municipios--coluna__card img {
+        width: 200px;
+        height: 140px;
     }
 
     .layout-municipios--coluna__card div h2{

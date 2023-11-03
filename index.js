@@ -23,6 +23,11 @@ menuButton.addEventListener("click", () => {
 function tamanhoDaTelaMenorQue720() {
     return window.innerWidth >= 720
 }
+
+function tamanhoDaTelaMaiorQue1100() {
+    return window.innerWidth >= 1100
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('resize', () => {
         let tamanhoDaTela = tamanhoDaTelaMenorQue720();
@@ -33,4 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 })
+
+
 
