@@ -41,7 +41,7 @@ div.container-disciplinas{
 
 section.layout-disciplinas{
     width: 500px;
-    height: 300px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,15 +56,13 @@ section.layout-disciplinas h2{
 }
 
 section.layout-disciplinas div.layout-disciplinas--caixa {
-    height: 100%;
-    text-align: center;
+    height: 180px;
     border-top: 2px solid #40e0d0;
-    overflow: hidden;
     display: flex;
 }
 
 section.layout-disciplinas div img {
-    width: 200px;
+    width: 160px;
     height: 100%;
 }
 
@@ -73,5 +71,10 @@ section.layout-disciplinas div.layout-disciplinas--caixa div.layout-disciplinas-
     align-items: center;
     padding: 0 15px;
     text-align: justify;
+}
+
+section.layout-disciplinas div.layout-disciplinas--colaboracao{
+    margin: 0 10px;
+    margin-top: 15px;
 }
 
