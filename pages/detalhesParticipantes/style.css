@@ -74,7 +74,11 @@ section.layout-disciplinas div.layout-disciplinas--caixa div.layout-disciplinas-
 }
 
 section.layout-disciplinas div.layout-disciplinas--colaboracao{
-    margin: 0 10px;
-    margin-top: 15px;
+    height: 100%;
+    text-align: justify;
 }
 
+section.layout-disciplinas div.layout-disciplinas--colaboracao p {
+    padding: 0 15px;
+    padding-top: 15px;
+}
