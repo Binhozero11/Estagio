@@ -1,0 +1,156 @@
+@media(max-width:1200px){
+    section.layout-disciplinas{
+        width: 500px;
+    }
+}
+
+@media(max-width:1100px){
+/*-----------------------*\
+    detalhesParticipantes
+\*-----------------------*/
+
+    main.disciplinas h1 {
+        font-size: 3em;
+        margin-top: 35px;
+    }
+
+    main.disciplinas div.container-disciplinas {
+        gap: 30px;
+    }
+
+    section.layout-disciplinas{
+        height: 340px;
+        width: 350px;
+    }
+
+    section.layout-disciplinas h2 {
+        font-size: 1.7em;
+        line-height: 35px;
+    }
+
+    section.layout-disciplinas div.layout-disciplinas--caixa{
+        height: 150px;
+        font-size: 0.7em;
+    }
+
+    section.layout-disciplinas div img{
+        width: 100px;
+    }
+
+    section.layout-disciplinas div.layout-disciplinas--caixa div.layout-disciplinas--informacoes{
+        padding: 0 10px;
+        padding-top: 10px;
+    }
+
+    section.layout-disciplinas div.layout-disciplinas--colaboracao{
+        font-size: 0.9em;
+    }
+    
+    section.layout-disciplinas div.layout-disciplinas--colaboracao p {
+        padding: 0 10px;
+        padding-top: 10px;
+    }
+}
+
+@media(max-width: 740px){
+    main.disciplinas h1 {
+        font-size: 2.5em;
+        margin-top: 30px;
+    }
+
+    main.disciplinas div.container-disciplinas {
+        gap: 15px;
+    }
+
+    section.layout-disciplinas{
+        height: 350px;
+        width: 280px;
+    }
+
+    section.layout-disciplinas h2 {
+        font-size: 1.3em;
+        line-height: 20px;
+        margin-top: 5px;
+    }
+
+    section.layout-disciplinas div.layout-disciplinas--caixa{
+        height: 100px;
+        font-size: 0.75em;
+        align-items: center;
+    }
+
+    section.layout-disciplinas div img{
+        margin-left: 5px;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: 2px solid #40e0d0;
+    }
+
+    section.layout-disciplinas div.layout-disciplinas--caixa div.layout-disciplinas--informacoes{
+        padding-top: 5px;
+    }
+
+    section.layout-disciplinas div.layout-disciplinas--colaboracao{
+        font-size: 0.85em;
+    }
+    
+    section.layout-disciplinas div.layout-disciplinas--colaboracao p {
+        padding: 0 10px;
+        padding-top: 5px;
+    }
+}
+
+@media(max-width: 600px){
+    main.disciplinas h1 {
+        margin-top: 20px;
+    }
+
+    main.disciplinas div.container-disciplinas {
+        gap: 20px;
+    }
+
+    section.layout-disciplinas{
+        height: auto;
+        width: 450px;
+        margin: 0 15px;
+    }
+
+    section.layout-disciplinas div.layout-disciplinas--caixa{
+        font-size: 0.9em;
+    }
+
+    section.layout-disciplinas div.layout-disciplinas--caixa div.layout-disciplinas--informacoes{
+        padding-top: 10px;
+    }
+
+    section.layout-disciplinas div.layout-disciplinas--colaboracao{
+        font-size: 1em;
+    }
+    
+    section.layout-disciplinas div.layout-disciplinas--colaboracao p {
+        padding-top: 10px;
+    }
+}
+
+@media(max-width: 480px){
+
+    header.layout-cabecalho a h2 {
+        font-size: 1.3em;
+    }
+
+    section.layout-disciplinas div.layout-disciplinas--caixa{
+        height: 120px;
+        font-size: 0.75em;
+        align-items: center;
+    }
+}
+
+@media(max-width: 320px){
+
+    header.layout-cabecalho a h2 {
+        font-size: 1.1em;
+        margin-right: 90px;
+        margin-left: 20px;
+    }
+}

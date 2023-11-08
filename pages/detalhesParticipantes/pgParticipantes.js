@@ -15,13 +15,13 @@ const htmlDoHeader =
         <h2>3°INFORMÁTICA</h2>
     </a>
     <nav class="nav">
-    <i class='bx bx-menu' id="menu"></i>
-    <div class="nav-links">
-      <a href="./quemSomos.html">QUEM SOMOS?</a>
-      <a href="./faleConosco.html">FALE CONOSCO</a>
-      <a href="./disciplinas.html">DISCIPLINAS</a>
-    </div>
-  </nav>
+        <i class='bx bx-menu' id="menu"></i>
+        <div class="nav-links">
+            <a href="./quemSomos.html">QUEM SOMOS?</a>
+            <a href="mailto:terceirotecnicoinf@gmail.com">FALE CONOSCO</a>
+            <a href="./disciplinas.html">DISCIPLINAS</a>
+        </div>
+    </nav>
 
 `
 header.innerHTML = htmlDoHeader
