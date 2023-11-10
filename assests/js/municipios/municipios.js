@@ -30,7 +30,7 @@ header.innerHTML = htmlDoHeader
 const navMunicipios = document.getElementById("nav-js")
 const htmlNav = 
 `
-<div class="nav nav-pills mb-3 justify-content-center" id="nav-tab" role="tablist">
+<div class="nav nav-pills mb-3" id="nav-tab" role="tablist">
     <button class="nav-link active" id="nav-aspectosGeográficos-tab" data-bs-toggle="tab"
         data-bs-target="#nav-aspectosGeográficos" type="button" role="tab"
         aria-controls="nav-aspectosGeográficos" aria-selected="true">Aspectos Geográficos

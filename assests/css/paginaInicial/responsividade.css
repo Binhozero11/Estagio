@@ -235,8 +235,13 @@
         font-size: 1.1em
     }
 
-    /*-----------------------*\
-        detalhesParticipantes
-    \*-----------------------*/
+    @media(max-width:360px){
+
+        header.layout-cabecalho a h2 {
+            font-size: 1.2em;
+            margin-right: 60px;
+            margin-left: 30px;
+        }
+    }
 
 }

@@ -1,0 +1,84 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer{
+    flex-shrink: 0;
+}
+
+/*-----------------------*\
+  Layout disciplinas.html
+\*-----------------------*/
+
+main.disciplinas {
+    height: auto;
+    text-align: center;
+}
+
+main.disciplinas h1 {
+    font-family: "roboto";
+    font-size: 4em;
+    color: #40e0d0;
+    margin-top: 40px;
+}
+
+div.container-disciplinas{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 40px;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+section.layout-disciplinas{
+    width: 530px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    border: 2px solid #40e0d0;
+    border-radius: 2%;
+}
+
+section.layout-disciplinas h2{
+    width: 100%;
+    font-size: 2em;
+    line-height: 45px;
+}
+
+section.layout-disciplinas div.layout-disciplinas--caixa {
+    height: 180px;
+    border-top: 2px solid #40e0d0;
+    display: flex;
+}
+
+section.layout-disciplinas div img {
+    width: 160px;
+    height: 100%;
+}
+
+section.layout-disciplinas div.layout-disciplinas--caixa div.layout-disciplinas--informacoes{
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    text-align: justify;
+}
+
+section.layout-disciplinas div.layout-disciplinas--colaboracao{
+    height: 100%;
+    text-align: justify;
+}
+
+section.layout-disciplinas div.layout-disciplinas--colaboracao p {
+    padding: 0 15px;
+    padding-top: 15px;
+}
