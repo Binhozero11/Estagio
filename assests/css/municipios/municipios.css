@@ -1,3 +1,7 @@
+/*-----------------*\
+   Alinhador geral
+\*-----------------*/
+
 html, body {
     display: flex;
     flex-direction: column;
@@ -22,6 +26,10 @@ main {
 footer{
     flex-shrink: 0;
 }
+
+/*--------------*\
+    geral
+\*--------------*/
 
 main h1 {
     margin-top: 30px;
@@ -57,8 +65,26 @@ div.container div.tab-content {
     color: black;
 }
 
+/*--------------*\
+    tabela
+\*--------------*/
+
+div.container div.tab-content div.aspectosGeográficos table thead {
+    font-size: 1.6em;
+    letter-spacing: 1.5px;
+}
+
 div.container div.tab-content div.aspectosGeográficos table tbody tr td  ul{
     list-style: none;
     padding: 0;
     font-size: 1em;
+}
+
+div.container div.tab-content div.aspectosGeográficos table tbody tr th {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+div.container div.tab-content div.aspectosGeográficos table tbody tr td {
+    font-size: 1.1em;
 }

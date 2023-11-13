@@ -1,3 +1,7 @@
+/*-----------------------------*\
+    head padrão dos municípios
+/*-----------------------------*/
+
 const head = document.querySelector("head")
 const htmlHead = 
 `
@@ -7,7 +11,7 @@ const htmlHead =
 head.innerHTML += htmlHead
 
 /*-----------------------*\
-    header dos municipios
+    header dos municípios
 /*-----------------------*/
 
 const header = document.getElementById("header")
