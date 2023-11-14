@@ -82,3 +82,15 @@ section.layout-disciplinas div.layout-disciplinas--colaboracao p {
     padding: 0 15px;
     padding-top: 15px;
 }
+
+/*-----------------------*\
+  Layout quemSomos.html
+\*-----------------------*/
+
+main.quemSomos div.container{
+    height: 100%;
+}
+
+main.quemSomos div.container h1 {
+    text-align: center;
+}

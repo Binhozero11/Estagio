@@ -49,6 +49,11 @@
         tabela
     \*--------------*/
 
+    nav#nav-js div#nav-tab button {
+        letter-spacing: 1px;
+        padding: 10px;
+    }
+
     div.container div.tab-content div.aspectosGeográficos table thead {
         font-size: 1.2em;
         letter-spacing: 1.1px;
@@ -87,6 +92,11 @@
     /*--------------*\
         tabela
     \*--------------*/
+
+    nav#nav-js div#nav-tab button {
+        letter-spacing: 0.8px;
+        padding: 8px;
+    }
 
     div.container div.tab-content div.aspectosGeográficos table thead {
         font-size: 1.1em;

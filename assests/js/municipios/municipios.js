@@ -42,8 +42,8 @@ const htmlNav =
     <button class="nav-link" id="nav-historia-tab" data-bs-toggle="tab" data-bs-target="#nav-historia"
         type="button" role="tab" aria-controls="nav-historia" aria-selected="false">Historia
     </button>
-    <button class="nav-link" id="nav-biologia-tab" data-bs-toggle="tab" data-bs-target="#nav-biologia"
-        type="button" role="tab" aria-controls="nav-biologia" aria-selected="false">Biologia
+    <button class="nav-link" id="nav-aspectosSocioambientais-tab" data-bs-toggle="tab" data-bs-target="#nav-aspectosSocioambientais"
+        type="button" role="tab" aria-controls="nav-aspectosSocioambientais" aria-selected="false">Aspectos Socioambientais
     </button>
     <button class="nav-link" id="nav-contatos-tab" data-bs-toggle="tab" data-bs-target="#nav-contatos"
         type="button" role="tab" aria-controls="nav-contatos" aria-selected="false">Contatos

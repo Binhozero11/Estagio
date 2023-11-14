@@ -53,8 +53,10 @@ nav#nav-js div#nav-tab {
 }
 
 nav#nav-js div#nav-tab button {
+    padding: 15px;
     color: #40e0d0;
     text-shadow: 0.6px 0.5px 0.6px #05524a;
+    letter-spacing: 2px;
 }
 .nav-pills .nav-link.active{
     background-color: #022723;

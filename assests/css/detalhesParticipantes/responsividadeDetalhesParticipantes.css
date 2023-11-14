@@ -149,8 +149,9 @@
 @media(max-width: 320px){
 
     header.layout-cabecalho a h2 {
-        font-size: 1.1em;
+        font-size: 1em;
         margin-right: 90px;
         margin-left: 20px;
     }
+    
 }
