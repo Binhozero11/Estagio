@@ -32,5 +32,5 @@ const images = {
     rioDoPires: ["../assests/images/fundo-pagina-municipios/rioDoPires/RioDoPires-3.jpg"],
 }
 
-const imagemPadrao = "../assests/images/fundo.jpg"
+const imagemPadrao = "../assests/images/Fundo.jpg"
 
