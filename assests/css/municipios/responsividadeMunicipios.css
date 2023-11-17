@@ -16,18 +16,23 @@
         tabela
     \*--------------*/
 
-    div.container div.tab-content div.aspectosGeográficos table thead {
+    div.container div.tab-content div table thead {
         font-size: 1.4em;
         letter-spacing: 1.3px;
     }
     
-    div.container div.tab-content div.aspectosGeográficos table tbody tr th {
+    div.container div.tab-content div table tbody tr th {
         font-size: 1.2em;
         font-weight: 600;
     }
     
-    div.container div.tab-content div.aspectosGeográficos table tbody tr td {
+    div.container div.tab-content div table tbody tr td {
         font-size: 1.1em;
+    }
+}
+@media(max-width:770px) {
+    div.container div.tab-content div.aspectosSocioambientais {
+        margin-left: -20px;
     }
 }
 
@@ -54,22 +59,26 @@
         padding: 10px;
     }
 
-    div.container div.tab-content div.aspectosGeográficos table thead {
+    div.container div.tab-content div.aspectosSocioambientais {
+        margin-left: 0;
+    }
+
+    div.container div.tab-content div table thead {
         font-size: 1.2em;
         letter-spacing: 1.1px;
     }
     
-    div.container div.tab-content div.aspectosGeográficos table tbody tr th {
+    div.container div.tab-content div table tbody tr th {
         font-size: 1.1em;
         font-weight: 600;
     }
     
-    div.container div.tab-content div.aspectosGeográficos table tbody tr td {
+    div.container div.tab-content div table tbody tr td {
         font-size: 1em;
     }
 }
 
-@media(max-width: 500px){
+@media(max-width: 550px){
 
     /*--------------*\
         geral
@@ -98,18 +107,51 @@
         padding: 8px;
     }
 
-    div.container div.tab-content div.aspectosGeográficos table thead {
+    div.container div.tab-content div table thead {
         font-size: 1.1em;
         letter-spacing: 1px;
     }
     
-    div.container div.tab-content div.aspectosGeográficos table tbody tr th {
+    div.container div.tab-content div table tbody tr th {
         font-size: 1em;
         font-weight: 600;
     }
     
-    div.container div.tab-content div.aspectosGeográficos table tbody tr td {
+    div.container div.tab-content div table tbody tr td {
         font-size: 0.9em;
+    }
+
+    div.container div.tab-content div.aspectosSocioambientais table tbody tr td ul li {
+        padding: 3px 0;
+    }
+
+    /*-----------------*\
+        tabela biologia
+    \*-----------------*/
+
+    div.container div.tab-content div.aspectosSocioambientais table thead {
+        font-size: 1em;
+        letter-spacing: 1px;
+    }
+    
+    div.container div.tab-content div.aspectosSocioambientais table tbody tr th {
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+    
+    div.container div.tab-content div.aspectosSocioambientais table tbody tr td {
+        font-size: 0.8em;
+    }
+}
+
+@media(max-width: 450px){
+    div.container {
+        width: 90%;
+    }
+
+    div.container div.tab-content div.aspectosSocioambientais {
+        overflow-x: scroll;
+        
     }
 }
 
@@ -129,17 +171,17 @@
         tabela
     \*--------------*/
 
-    div.container div.tab-content div.aspectosGeográficos table thead {
+    div.container div.tab-content div table thead {
         font-size: 1em;
         letter-spacing: 0.8px;
     }
     
-    div.container div.tab-content div.aspectosGeográficos table tbody tr th {
+    div.container div.tab-content div table tbody tr th {
         font-size: 0.9em;
         font-weight: 600;
     }
     
-    div.container div.tab-content div.aspectosGeográficos table tbody tr td {
+    div.container div.tab-content div table tbody tr td {
         font-size: 0.8em;
     }
 }

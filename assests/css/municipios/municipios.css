@@ -71,22 +71,26 @@ div.container div.tab-content {
     tabela
 \*--------------*/
 
-div.container div.tab-content div.aspectosGeográficos table thead {
+div.container div.tab-content div table thead {
     font-size: 1.6em;
     letter-spacing: 1.5px;
 }
 
-div.container div.tab-content div.aspectosGeográficos table tbody tr td  ul{
+div.container div.tab-content div.aspectosSocioambientais table tbody tr td img {
+    margin: 0 10px;
+}
+
+div.container div.tab-content div table tbody tr td  ul{
     list-style: none;
     padding: 0;
     font-size: 1em;
 }
 
-div.container div.tab-content div.aspectosGeográficos table tbody tr th {
+div.container div.tab-content div table tbody tr th {
     font-size: 1.3em;
     font-weight: 600;
 }
 
-div.container div.tab-content div.aspectosGeográficos table tbody tr td {
+div.container div.tab-content div table tbody tr td {
     font-size: 1.1em;
 }
