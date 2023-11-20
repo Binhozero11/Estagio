@@ -99,6 +99,15 @@
         padding: 0 10px;
         padding-top: 5px;
     }
+
+    /*-----------------------*\
+        Layout quemSomos.html
+    \*-----------------------*/
+
+    main.quemSomos div.container h1 {
+        font-size: 2.5em;
+    }
+
 }
 
 @media(max-width: 600px){
@@ -144,6 +153,20 @@
         font-size: 0.75em;
         align-items: center;
     }
+
+    /*-----------------------*\
+        Layout quemSomos.html
+    \*-----------------------*/
+
+    main.quemSomos div.container h1 {
+        font-size: 2.2em;
+    }
+
+    main.quemSomos div.container ol {
+        list-style: none;
+        text-align: center;
+        font-size: 1.2em;
+    }
 }
 
 @media(max-width: 320px){
@@ -152,6 +175,19 @@
         font-size: 1em;
         margin-right: 90px;
         margin-left: 20px;
+    }
+
+        /*-----------------------*\
+        Layout quemSomos.html
+    \*-----------------------*/
+
+    main.quemSomos div.container h1 {
+        font-size: 2em;
+    }
+
+    main.quemSomos div.container ol {
+        font-size: 1em;
+        padding: 5px;
     }
     
 }

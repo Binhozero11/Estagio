@@ -94,3 +94,19 @@ div.container div.tab-content div table tbody tr th {
 div.container div.tab-content div table tbody tr td {
     font-size: 1.1em;
 }
+
+/*--------------*\
+    historia
+\*--------------*/
+
+div.container div.tab-content div#nav-historia h1 {
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+div.container div.tab-content div#nav-historia div.paragrafo-de-resumo {
+    padding: 10px 20px;
+    font-size: 1.2em;
+}

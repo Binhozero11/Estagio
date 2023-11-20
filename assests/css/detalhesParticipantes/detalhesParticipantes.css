@@ -92,5 +92,23 @@ main.quemSomos div.container{
 }
 
 main.quemSomos div.container h1 {
+    font-family: "roboto";
+    font-size: 3em;
+    color: #40e0d0;
+    margin: 30px 0;
     text-align: center;
+}
+
+main.quemSomos div.container picture {
+    display: flex;
+    justify-content: center;
+}
+
+main.quemSomos div.container ol {
+    padding: 15px;
+    background-color: #000;
+    margin: 50px 0;
+    list-style: none;
+    text-align: center;
+    font-size: 1.3em;
 }
