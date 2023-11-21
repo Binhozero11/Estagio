@@ -99,7 +99,7 @@ div.container div.tab-content div table tbody tr td {
     historia
 \*--------------*/
 
-div.container div.tab-content div#nav-historia h1 {
+div.container div.tab-content div#nav-historia h1, div.container div.tab-content div#nav-contatos h1 {
     padding-top: 5px;
     margin-top: 0px;
     margin-bottom: 25px;
