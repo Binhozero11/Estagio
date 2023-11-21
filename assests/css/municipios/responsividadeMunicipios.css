@@ -31,8 +31,10 @@
     }
 }
 @media(max-width:770px) {
+
+
     div.container div.tab-content div.aspectosSocioambientais {
-        margin-left: -20px;
+        font-size: 0.8em;
     }
 }
 
