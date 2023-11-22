@@ -10,7 +10,7 @@ html{
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: black url(assests/images/Fundo.jpg) no-repeat fixed;
+    background: black url(assests/images/Fundo.jpg) no-repeat right fixed;
     background-size: cover;
     color: #fff;
     font-size: 1.4rem;
