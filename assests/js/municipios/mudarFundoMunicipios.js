@@ -22,10 +22,10 @@ trocaDeTema.addEventListener("click", () => {
 })
 
 const images = {
-    boquira: ["../assests/images/fundo-pagina-municipios/boquira/Boquira.jpg"],
+    boquira: ["../assests/images/fundo-pagina-municipios/boquira/Boquira-1.jpg"],
     botupora: [ "../assests/images/fundo-pagina-municipios/botupora/Botupora.jpeg"],
     caturama: ["../assests/images/fundo-pagina-municipios/caturama/Caturama.jpg"],
-    ericoCardoso: ["../assests/images/fundo-pagina-municipios/ericoCardoso/Erico-cardoso.png"],
+    ericoCardoso: ["../assests/images/fundo-pagina-municipios/ericoCardoso/EricoCardoso-2.jpg"],
     ibipitanga: ["../assests/images/fundo-pagina-municipios/ibipitanga/ibipitanga-1.jpg"],
     macaubas: ["../assests/images/fundo-pagina-municipios/macaubas/Macaubas-1.jpg"],
     paramirim: ["../assests/images/fundo-pagina-municipios/paramirim/Paramirim-1.jpg"],
