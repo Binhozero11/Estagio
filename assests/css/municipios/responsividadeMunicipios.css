@@ -29,12 +29,55 @@
     div.container div.tab-content div table tbody tr td {
         font-size: 1.1em;
     }
+
+    /*--------------*\
+        contatos
+    \*--------------*/
+
+    div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados h2 {
+        margin-top: -50px;
+        margin-bottom: 40px;
+        font-size: 1.85em;
+    }
+
 }
 @media(max-width:770px) {
-
-
     div.container div.tab-content div.aspectosSocioambientais {
         font-size: 0.8em;
+    }
+
+    /*--------------*\
+        contatos
+    \*--------------*/
+
+    div.container div.tab-content div#nav-contatos div.design div.design-contatos {
+        gap: 20px;
+    }
+    
+    div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados {
+        width: 90%;
+        padding: 60px 0;
+    }
+    
+    div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados h2 {
+        margin-top: -50px;
+        margin-bottom: 40px;
+        font-size: 1.7em;
+    }
+    
+    div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados div.design-contatos__dados-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados div.design-contatos__dados-container div {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+    
+    div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados div.design-contatos__dados-container div i {
+        font-size: 2em;
     }
 }
 
@@ -182,6 +225,69 @@
         padding: 6px 12px;
         font-size: 1em;
     }
+
+    /*--------------*\
+        contatos
+    \*--------------*/
+
+
+    div.container div.tab-content div#nav-contatos div.design div.design-contatos {
+        gap: 15px;
+    }
+    
+    div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados {
+        width: 95%;
+        padding: 50px 0;
+    }
+    
+    div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados h2 {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 1.6em;
+    }
+
+    div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados div.design-contatos__dados-container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    
+    div.container div.tab-content div#nav-contatos div.design div.principaisFontes div{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        margin: 10px 0;
+        text-align: center;
+        padding: 0 5px;
+    }
+    
+    div.container div.tab-content div#nav-contatos div.design div.principaisFontes div a {
+        border: 0px;
+        font-size: 0.8em;
+    }
+
+    div.container div.tab-content div#nav-contatos div.design div.principaisFontes {
+        width: 100%;
+        padding: 0;
+    }
+
+    div.container div.tab-content div#nav-contatos div.design div.principaisFontes h2 {
+        font-size: 1.6em;
+    }
+    
+    div.container div.tab-content div#nav-contatos div.design div.principaisFontes div{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        margin: 10px 0;
+        justify-content: left;
+    }
+    
+    div.container div.tab-content div#nav-contatos div.design div.principaisFontes div a {
+        width: 100%;
+        border: 0px;
+    }
     
 }
 
@@ -214,4 +320,30 @@
     div.container div.tab-content div table tbody tr td {
         font-size: 0.8em;
     }
+
+    /*--------------*\
+        contatos
+    \*--------------*/
+
+    div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados div.design-contatos__dados-container div a {
+        font-size: 0.9em;
+    }
+
+
+    
+    div.container div.tab-content div#nav-contatos div.design div.principaisFontes div{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        margin: 10px 0;
+        text-align: center;
+        padding: 0 5px;
+    }
+    
+    div.container div.tab-content div#nav-contatos div.design div.principaisFontes div a {
+        border: 0px;
+        font-size: 0.8em;
+    }
+
+
 }

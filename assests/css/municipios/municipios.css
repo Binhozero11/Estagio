@@ -110,3 +110,81 @@ div.container div.tab-content div#nav-historia div.paragrafo-de-resumo {
     padding: 10px 20px;
     font-size: 1.2em;
 }
+
+/*--------------*\
+    contatos
+\*--------------*/
+
+div.container div.tab-content div#nav-contatos div.design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container div.tab-content div#nav-contatos div.design div.design-contatos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados {
+    border: 1px solid #ccc;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0;
+}
+
+div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados h2 {
+    margin-top: -50px;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados div.design-contatos__dados-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados div.design-contatos__dados-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+div.container div.tab-content div#nav-contatos div.design div.design-contatos div.design-contatos__dados div.design-contatos__dados-container div i {
+    font-size: 2em;
+}
+
+
+
+div.container div.tab-content div#nav-contatos div.design div.principaisFontes {
+    padding: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.container div.tab-content div#nav-contatos div.design div.principaisFontes h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+div.container div.tab-content div#nav-contatos div.design div.principaisFontes div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+div.container div.tab-content div#nav-contatos div.design div.principaisFontes div a {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
