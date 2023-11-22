@@ -48,6 +48,9 @@ const htmlNav =
     <button class="nav-link" id="nav-contatos-tab" data-bs-toggle="tab" data-bs-target="#nav-contatos"
         type="button" role="tab" aria-controls="nav-contatos" aria-selected="false">Contatos
     </button>
+    <button class="nav-link" id="nav-verFundo-tab" data-bs-toggle="tab" data-bs-target="#nav-verFundo"
+        type="button" role="tab" aria-controls="nav-verFundo" aria-selected="false">Ver fundo
+    </button>
 </div>
 `
 
