@@ -96,11 +96,16 @@ section.layout-professores {
 \*--------------*/
 
 div.ebook {
+  background-color: black;
+  margin: 40px 0;
   width: 100%;
-  height: 250px;
+  height: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  text-align: center;
 }
 
 /*--------------*\
