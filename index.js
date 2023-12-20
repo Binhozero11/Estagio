@@ -35,12 +35,3 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 })
 
-/*-----------------------*\
-    botao exibir ebook
-/*-----------------------*/
-
-const botaoEbook = document.querySelector("div.ebook div.ebook-preVisualizacao a")
-botaoEbook.addEventListener("click", () => {
-    let divAtual = document.getElementById("frame");
-    divAtual.classList.toggle("iframeComEbook")
-})

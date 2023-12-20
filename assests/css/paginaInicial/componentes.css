@@ -274,26 +274,6 @@ div.ebook a:focus {
     box-shadow: none;
 }
 
-div.ebook div.ebook-preVisualizacao i {
-    font-size: 1.4em;
-}
-
-div.ebook div.ebook-preVisualizacao div {
-    display: none;
-    margin-top: 50px;
-    width: 98vw;
-    height: 400px;
-}
-
-div.ebook div.ebook-preVisualizacao div iframe {
-    height: 100%;
-    width: 50%;
-}
-
-div.ebook div.ebook-preVisualizacao div.iframeComEbook {
-    display: block;
-}
-
 /*--------------*\
       Rodapé
 \*--------------*/
